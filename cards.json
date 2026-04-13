@@ -339,5 +339,348 @@
       "it": "Possibilità che i consumatori si confondano."
     },
     "note": { "ja": "侵害判断の中心。" }
+  },
+  ,
+  {
+    "id": "tm-0021",
+    "group": "priority",
+    "term": {
+      "ja": "先願商標",
+      "de": "prioritätsältere Marke",
+      "en": "earlier-filed trademark",
+      "it": "marchio depositato anteriormente"
+    },
+    "definition": {
+      "ja": "後の出願より先に出願された商標。",
+      "de": "Marke, die vor einer anderen Marke angemeldet wurde.",
+      "en": "A trademark filed before another trademark.",
+      "it": "Marchio depositato prima di un altro marchio."
+    },
+    "note": {
+      "ja": "先願主義のもとで優先関係の基準となる。"
+    }
+  },
+  {
+    "id": "tm-0022",
+    "group": "priority",
+    "term": {
+      "ja": "後願商標",
+      "de": "prioritätsjüngere Marke",
+      "en": "later-filed trademark",
+      "it": "marchio depositato successivamente"
+    },
+    "definition": {
+      "ja": "他の商標より後に出願された商標。",
+      "de": "Marke, die nach einer anderen Marke angemeldet wurde.",
+      "en": "A trademark filed after another trademark.",
+      "it": "Marchio depositato dopo un altro marchio."
+    },
+    "note": {
+      "ja": "先願商標との抵触が問題となりうる。"
+    }
+  },
+  {
+    "id": "tm-0023",
+    "group": "refusal",
+    "term": {
+      "ja": "絶対的拒絶理由",
+      "de": "absolute Schutzhindernisse",
+      "en": "absolute grounds for refusal",
+      "it": "motivi assoluti di rifiuto"
+    },
+    "definition": {
+      "ja": "商標自体の性質などに基づく拒絶理由。",
+      "de": "Zurückweisungsgründe, die sich aus der Marke selbst ergeben.",
+      "en": "Grounds for refusal based on the nature of the mark itself.",
+      "it": "Motivi di rifiuto basati sulla natura stessa del marchio."
+    },
+    "note": {
+      "ja": "識別力欠如や記述性などが典型。"
+    }
+  },
+  {
+    "id": "tm-0024",
+    "group": "refusal",
+    "term": {
+      "ja": "相対的拒絶理由",
+      "de": "relative Schutzhindernisse",
+      "en": "relative grounds for refusal",
+      "it": "motivi relativi di rifiuto"
+    },
+    "definition": {
+      "ja": "先行権利との抵触などに基づく拒絶理由。",
+      "de": "Zurückweisungsgründe wegen Konflikts mit älteren Rechten.",
+      "en": "Grounds for refusal based on conflicts with earlier rights.",
+      "it": "Motivi di rifiuto basati sul conflitto con diritti anteriori."
+    },
+    "note": {
+      "ja": "先願商標や著名商標との関係で問題になりやすい。"
+    }
+  },
+  {
+    "id": "tm-0025",
+    "group": "publication",
+    "term": {
+      "ja": "出願公開",
+      "de": "Offenlegung der Anmeldung",
+      "en": "publication of the application",
+      "it": "pubblicazione della domanda"
+    },
+    "definition": {
+      "ja": "出願内容が公に示されること。",
+      "de": "Öffentliche Bekanntmachung des Inhalts einer Anmeldung.",
+      "en": "Public disclosure of the contents of an application.",
+      "it": "Divulgazione pubblica del contenuto della domanda."
+    },
+    "note": {
+      "ja": "公開の時点や方式は制度ごとの差に注意。"
+    }
+  },
+  {
+    "id": "tm-0026",
+    "group": "office-action",
+    "term": {
+      "ja": "拒絶理由応答",
+      "de": "Erwiderung auf einen Beanstandungsbescheid",
+      "en": "response to an office action",
+      "it": "risposta all'azione dell'ufficio"
+    },
+    "definition": {
+      "ja": "拒絶理由通知に対して行う応答。",
+      "de": "Antwort auf einen Bescheid mit Beanstandungen oder Zurückweisungsgründen.",
+      "en": "A response submitted to address an office action.",
+      "it": "Risposta presentata per superare i rilievi dell'ufficio."
+    },
+    "note": {
+      "ja": "意見書や補正書の提出を含むことが多い。"
+    }
+  },
+  {
+    "id": "tm-0027",
+    "group": "deadline",
+    "term": {
+      "ja": "応答期間の期日",
+      "de": "Fristende für die Erwiderung",
+      "en": "response deadline",
+      "it": "termine per la risposta"
+    },
+    "definition": {
+      "ja": "拒絶理由通知などへの応答期限。",
+      "de": "Ende der Frist zur Einreichung einer Erwiderung.",
+      "en": "The deadline for filing a response.",
+      "it": "Scadenza entro cui deve essere presentata la risposta."
+    },
+    "note": {
+      "ja": "徒過すると不利益が生じうる。"
+    }
+  },
+  {
+    "id": "tm-0028",
+    "group": "deadline",
+    "term": {
+      "ja": "応答期間の延長請求",
+      "de": "Antrag auf Fristverlängerung",
+      "en": "request for extension of time to respond",
+      "it": "richiesta di proroga del termine di risposta"
+    },
+    "definition": {
+      "ja": "応答期限の延長を求める申請。",
+      "de": "Antrag auf Verlängerung der Frist zur Erwiderung.",
+      "en": "A request to extend the response period.",
+      "it": "Domanda volta a prorogare il termine per rispondere."
+    },
+    "note": {
+      "ja": "認められる条件や回数は制度ごとに異なる。"
+    }
+  },
+  {
+    "id": "tm-0029",
+    "group": "office-action",
+    "term": {
+      "ja": "意見書",
+      "de": "Stellungnahme",
+      "en": "written opinion",
+      "it": "memoria di osservazioni"
+    },
+    "definition": {
+      "ja": "審査官等に対し意見や反論を述べる書面。",
+      "de": "Schriftliche Äußerung mit Argumenten gegenüber der Behörde.",
+      "en": "A written submission presenting arguments or explanations.",
+      "it": "Atto scritto con osservazioni e argomentazioni."
+    },
+    "note": {
+      "ja": "拒絶理由通知への応答として提出されることが多い。"
+    }
+  },
+  {
+    "id": "tm-0030",
+    "group": "office-action",
+    "term": {
+      "ja": "補正書",
+      "de": "Änderungsantrag",
+      "en": "amendment",
+      "it": "atto di modifica"
+    },
+    "definition": {
+      "ja": "出願内容を補正するための書面。",
+      "de": "Schriftstück zur Änderung des Inhalts der Anmeldung.",
+      "en": "A filing used to amend the content of an application.",
+      "it": "Atto utilizzato per modificare il contenuto della domanda."
+    },
+    "note": {
+      "ja": "補正可能範囲には制限がある。"
+    }
+  },
+  {
+    "id": "tm-0031",
+    "group": "application",
+    "term": {
+      "ja": "出願分割",
+      "de": "Teilung der Anmeldung",
+      "en": "division of the application",
+      "it": "divisione della domanda"
+    },
+    "definition": {
+      "ja": "一つの出願を複数の出願に分けること。",
+      "de": "Aufspaltung einer Anmeldung in mehrere Anmeldungen.",
+      "en": "The splitting of one application into multiple applications.",
+      "it": "Suddivisione di una domanda in più domande."
+    },
+    "note": {
+      "ja": "商品・役務や争点の整理のために用いられる。"
+    }
+  },
+  {
+    "id": "tm-0032",
+    "group": "trial-invalidity",
+    "term": {
+      "ja": "商標登録無効審判",
+      "de": "Nichtigkeitsverfahren gegen eine Markeneintragung",
+      "en": "trial for invalidation of trademark registration",
+      "it": "procedimento di nullità della registrazione del marchio"
+    },
+    "definition": {
+      "ja": "登録商標の有効性を争い、その無効を求める審判。",
+      "de": "Verfahren, mit dem die Ungültigkeit einer eingetragenen Marke geltend gemacht wird.",
+      "en": "A proceeding seeking invalidation of a registered trademark.",
+      "it": "Procedimento volto a far dichiarare nulla una registrazione di marchio."
+    },
+    "note": {
+      "ja": "登録時の瑕疵を理由に争う。"
+    }
+  },
+  {
+    "id": "tm-0033",
+    "group": "trial-revocation",
+    "term": {
+      "ja": "商標登録取消審判",
+      "de": "Löschungsverfahren gegen eine Marke",
+      "en": "trial for revocation of trademark registration",
+      "it": "procedimento di decadenza o revoca del marchio"
+    },
+    "definition": {
+      "ja": "登録商標の取消しを求める審判。",
+      "de": "Verfahren, mit dem die Löschung oder der Verfall einer Marke beantragt wird.",
+      "en": "A proceeding seeking revocation or cancellation of a registered trademark.",
+      "it": "Procedimento volto a ottenere la decadenza o revoca di un marchio registrato."
+    },
+    "note": {
+      "ja": "不使用や不適法な使用などが問題となりうる。"
+    }
+  },
+  {
+    "id": "tm-0034",
+    "group": "owner",
+    "term": {
+      "ja": "商標権者",
+      "de": "Markeninhaber",
+      "en": "trademark owner",
+      "it": "titolare del marchio"
+    },
+    "definition": {
+      "ja": "商標権を有する者。",
+      "de": "Person oder Unternehmen, dem das Markenrecht zusteht.",
+      "en": "The person or entity that owns the trademark right.",
+      "it": "Soggetto titolare del diritto di marchio."
+    },
+    "note": {
+      "ja": "ライセンス設定や譲渡の主体となる。"
+    }
+  },
+  {
+    "id": "tm-0035",
+    "group": "license",
+    "term": {
+      "ja": "専用使用権者",
+      "de": "ausschließlicher Lizenznehmer",
+      "en": "exclusive licensee",
+      "it": "licenziatario esclusivo"
+    },
+    "definition": {
+      "ja": "専用使用権の設定を受けた者。",
+      "de": "Person oder Unternehmen, dem eine ausschließliche Lizenz eingeräumt wurde.",
+      "en": "A person or entity granted an exclusive license.",
+      "it": "Soggetto al quale è stata concessa una licenza esclusiva."
+    },
+    "note": {
+      "ja": "一定範囲で排他的な使用が認められる。"
+    }
+  },
+  {
+    "id": "tm-0036",
+    "group": "license",
+    "term": {
+      "ja": "独占的通常使用権者",
+      "de": "exklusiver einfacher Lizenznehmer",
+      "en": "sole licensee",
+      "it": "licenziatario unico"
+    },
+    "definition": {
+      "ja": "通常使用権者のうち、実質的に独占的使用が認められた者。",
+      "de": "Einfacher Lizenznehmer mit faktisch exklusiver Nutzungsbefugnis.",
+      "en": "A non-proprietary licensee granted sole use in practice.",
+      "it": "Licenziatario non titolare di un diritto reale, ma con uso esclusivo di fatto."
+    },
+    "note": {
+      "ja": "専用使用権とは法的性質が異なる。"
+    }
+  },
+  {
+    "id": "tm-0037",
+    "group": "license",
+    "term": {
+      "ja": "通常使用権者",
+      "de": "einfacher Lizenznehmer",
+      "en": "non-exclusive licensee",
+      "it": "licenziatario non esclusivo"
+    },
+    "definition": {
+      "ja": "通常使用権の設定を受けた者。",
+      "de": "Person oder Unternehmen mit einer einfachen Lizenz zur Nutzung der Marke.",
+      "en": "A person or entity granted a non-exclusive license.",
+      "it": "Soggetto cui è concessa una licenza non esclusiva."
+    },
+    "note": {
+      "ja": "同一商標について複数存在しうる。"
+    }
+  },
+  {
+    "id": "tm-0038",
+    "group": "madrid",
+    "term": {
+      "ja": "基礎商標",
+      "de": "Basismarke",
+      "en": "basic mark",
+      "it": "marchio di base"
+    },
+    "definition": {
+      "ja": "国際商標登録出願の基礎となる国内出願または国内登録商標。",
+      "de": "Nationale Anmeldung oder Eintragung, auf der eine internationale Markenanmeldung beruht.",
+      "en": "The national application or registration on which an international trademark application is based.",
+      "it": "Domanda o registrazione nazionale su cui si basa una domanda internazionale di marchio."
+    },
+    "note": {
+      "ja": "マドリッド制度の理解に重要。"
+    }
   }
 ]
