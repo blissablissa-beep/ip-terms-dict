@@ -3,7 +3,7 @@ const CACHE_NAME = "ip-terms-dict-v2";
 const ASSETS = [
   "./",
   "./index.html",
-  "./cards.json",
+  "./cards.json?v=2",
   "./manifest.webmanifest",
   "./sw.js"
 ];
