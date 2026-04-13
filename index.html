@@ -76,6 +76,18 @@
       padding: 14px;
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      cursor: pointer;
+    }
+
+    .card:active {
+      transform: scale(0.998);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
     }
 
     .term {
@@ -83,6 +95,13 @@
       font-weight: bold;
       margin-bottom: 10px;
       line-height: 1.25;
+      flex: 1;
+    }
+
+    .chevron {
+      font-size: 18px;
+      color: #94a3b8;
+      padding-top: 6px;
     }
 
     .lang {
@@ -90,11 +109,47 @@
       margin-bottom: 6px;
     }
 
+    .details {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid #334155;
+      display: none;
+    }
+
+    .details.open {
+      display: block;
+    }
+
+    .section-title {
+      font-size: 12px;
+      color: #93c5fd;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      margin: 0 0 8px 0;
+      text-transform: uppercase;
+    }
+
+    .definition-block {
+      margin-bottom: 14px;
+    }
+
+    .definition-line {
+      font-size: 14px;
+      line-height: 1.55;
+      margin-bottom: 8px;
+      color: #e2e8f0;
+    }
+
     .note {
       font-size: 14px;
       color: #cbd5e1;
-      margin-top: 10px;
       line-height: 1.5;
+    }
+
+    .hint {
+      font-size: 12px;
+      color: #94a3b8;
+      margin-top: 8px;
     }
 
     .empty {
@@ -126,6 +181,7 @@
     let data = [];
     let currentLang = localStorage.getItem("ipdict_display_lang") || "ja";
     let currentQuery = "";
+    let openCardId = null;
 
     const LANG_LABELS = {
       ja: "日本語",
@@ -145,6 +201,10 @@
       return item.term?.[lang] || "";
     }
 
+    function getDefinition(item, lang) {
+      return item.definition?.[lang] || "";
+    }
+
     function render(list) {
       const container = document.getElementById("list");
       const meta = document.getElementById("meta");
@@ -159,18 +219,43 @@
 
       list.forEach(item => {
         const heading = getTerm(item, currentLang);
+        const isOpen = openCardId === item.id;
 
         const div = document.createElement("div");
         div.className = "card";
+        div.dataset.id = item.id;
 
         div.innerHTML = `
-          <div class="term">${escapeHtml(heading)}</div>
+          <div class="card-top">
+            <div class="term">${escapeHtml(heading)}</div>
+            <div class="chevron">${isOpen ? "▾" : "▸"}</div>
+          </div>
+
           ${currentLang !== "ja" ? `<div class="lang">JA: ${escapeHtml(getTerm(item, "ja"))}</div>` : ""}
           ${currentLang !== "de" ? `<div class="lang">DE: ${escapeHtml(getTerm(item, "de"))}</div>` : ""}
           ${currentLang !== "en" ? `<div class="lang">EN: ${escapeHtml(getTerm(item, "en"))}</div>` : ""}
           ${currentLang !== "it" ? `<div class="lang">IT: ${escapeHtml(getTerm(item, "it"))}</div>` : ""}
-          <div class="note">${escapeHtml(item.note?.ja || "")}</div>
+
+          <div class="hint">タップで詳細表示</div>
+
+          <div class="details ${isOpen ? "open" : ""}">
+            <div class="definition-block">
+              <div class="section-title">Definition</div>
+              <div class="definition-line">JA: ${escapeHtml(getDefinition(item, "ja"))}</div>
+              <div class="definition-line">DE: ${escapeHtml(getDefinition(item, "de"))}</div>
+              <div class="definition-line">EN: ${escapeHtml(getDefinition(item, "en"))}</div>
+              <div class="definition-line">IT: ${escapeHtml(getDefinition(item, "it"))}</div>
+            </div>
+
+            <div class="section-title">Note</div>
+            <div class="note">${escapeHtml(item.note?.ja || "")}</div>
+          </div>
         `;
+
+        div.addEventListener("click", () => {
+          openCardId = openCardId === item.id ? null : item.id;
+          render(list);
+        });
 
         container.appendChild(div);
       });
@@ -186,11 +271,17 @@
 
       const filtered = data.filter(item => {
         const allTerms = Object.values(item.term || {});
+        const allDefinitions = Object.values(item.definition || {});
         const noteJa = item.note?.ja || "";
-        return [...allTerms, noteJa].some(v =>
+
+        return [...allTerms, ...allDefinitions, noteJa].some(v =>
           String(v).toLowerCase().includes(q)
         );
       });
+
+      if (openCardId && !filtered.some(item => item.id === openCardId)) {
+        openCardId = null;
+      }
 
       render(filtered);
     }
