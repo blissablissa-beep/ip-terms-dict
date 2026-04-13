@@ -191,7 +191,7 @@
     };
 
     async function load() {
-      const res = await fetch("./cards.json");
+      const res = await fetch("./cards.json?v=3", { cache: "no-store" });
       data = await res.json();
       updateLangButtons();
       applyFilter();
