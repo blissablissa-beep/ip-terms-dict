@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IP Terms Dictionary</title>
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#0f172a"/>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 0;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+
+    header {
+      padding: 16px;
+      font-size: 20px;
+      font-weight: bold;
+      background: #111827;
+    }
+
+    input {
+      width: calc(100% - 32px);
+      margin: 12px 16px;
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      font-size: 16px;
+    }
+
+    .card {
+      background: #1f2933;
+      margin: 12px 16px;
+      padding: 12px;
+      border-radius: 10px;
+    }
+
+    .term {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+
+    .lang {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+
+    .note {
+      font-size: 13px;
+      color: #9ca3af;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>IP Terms Dictionary</header>
+
+  <input id="search" placeholder="Search..." />
+
+  <div id="list"></div>
+
+  <script>
+    let data = [];
+
+    async function load() {
+      const res = await fetch("./cards.json");
+      data = await res.json();
+      render(data);
+    }
+
+    function render(list) {
+      const container = document.getElementById("list");
+      container.innerHTML = "";
+
+      list.forEach(item => {
+        const div = document.createElement("div");
+        div.className = "card";
+
+        div.innerHTML = `
+          <div class="term">${item.term.ja}</div>
+          <div class="lang">DE: ${item.term.de}</div>
+          <div class="lang">EN: ${item.term.en}</div>
+          <div class="lang">IT: ${item.term.it}</div>
+          <div class="note">${item.note.ja || ""}</div>
+        `;
+
+        container.appendChild(div);
+      });
+    }
+
+    document.getElementById("search").addEventListener("input", (e) => {
+      const q = e.target.value.toLowerCase();
+
+      const filtered = data.filter(item =>
+        Object.values(item.term).some(v =>
+          v.toLowerCase().includes(q)
+        )
+      );
+
+      render(filtered);
+    });
+
+    load();
+
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./sw.js");
+    }
+  </script>
+</body>
+</html>
