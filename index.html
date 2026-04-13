@@ -21,40 +21,86 @@
       font-size: 20px;
       font-weight: bold;
       background: #111827;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .toolbar {
+      padding: 12px 16px 0 16px;
+    }
+
+    .lang-switch {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+
+    .lang-btn {
+      border: 1px solid #334155;
+      background: #111827;
+      color: #e5e7eb;
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .lang-btn.active {
+      background: #2563eb;
+      border-color: #2563eb;
+      color: white;
+      font-weight: 600;
     }
 
     input {
-      width: calc(100% - 32px);
-      margin: 12px 16px;
-      padding: 10px;
-      border-radius: 8px;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0 0 12px 0;
+      padding: 12px;
+      border-radius: 10px;
       border: none;
       font-size: 16px;
     }
 
+    .meta {
+      font-size: 13px;
+      color: #94a3b8;
+      padding: 0 16px 4px 16px;
+    }
+
     .card {
-  background: #1f2937;
-  margin: 12px 16px;
-  padding: 14px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      background: #1f2937;
+      margin: 12px 16px;
+      padding: 14px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
 
     .term {
-      font-size: 18px;
+      font-size: 28px;
       font-weight: bold;
-      margin-bottom: 6px;
+      margin-bottom: 10px;
+      line-height: 1.25;
     }
 
     .lang {
-      font-size: 14px;
-      margin-bottom: 4px;
+      font-size: 16px;
+      margin-bottom: 6px;
     }
 
     .note {
-      font-size: 13px;
-      color: #9ca3af;
-      margin-top: 6px;
+      font-size: 14px;
+      color: #cbd5e1;
+      margin-top: 10px;
+      line-height: 1.5;
+    }
+
+    .empty {
+      margin: 24px 16px;
+      color: #94a3b8;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -62,49 +108,121 @@
 <body>
   <header>IP Terms Dictionary</header>
 
-  <input id="search" placeholder="Search..." />
+  <div class="toolbar">
+    <div class="lang-switch" id="langSwitch">
+      <button class="lang-btn" data-lang="ja">JA</button>
+      <button class="lang-btn" data-lang="de">DE</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="it">IT</button>
+    </div>
 
+    <input id="search" placeholder="Search..." />
+  </div>
+
+  <div class="meta" id="meta"></div>
   <div id="list"></div>
 
   <script>
     let data = [];
+    let currentLang = localStorage.getItem("ipdict_display_lang") || "ja";
+    let currentQuery = "";
+
+    const LANG_LABELS = {
+      ja: "日本語",
+      de: "Deutsch",
+      en: "English",
+      it: "Italiano"
+    };
 
     async function load() {
       const res = await fetch("./cards.json");
       data = await res.json();
-      render(data);
+      updateLangButtons();
+      applyFilter();
+    }
+
+    function getTerm(item, lang) {
+      return item.term?.[lang] || "";
     }
 
     function render(list) {
       const container = document.getElementById("list");
+      const meta = document.getElementById("meta");
       container.innerHTML = "";
 
+      meta.textContent = `見出し: ${LANG_LABELS[currentLang]} / ${list.length}件`;
+
+      if (list.length === 0) {
+        container.innerHTML = `<div class="empty">該当する用語がありません。</div>`;
+        return;
+      }
+
       list.forEach(item => {
+        const heading = getTerm(item, currentLang);
+
         const div = document.createElement("div");
         div.className = "card";
 
         div.innerHTML = `
-          <div class="term">${item.term.ja}</div>
-          <div class="lang">DE: ${item.term.de}</div>
-          <div class="lang">EN: ${item.term.en}</div>
-          <div class="lang">IT: ${item.term.it}</div>
-          <div class="note">${item.note.ja || ""}</div>
+          <div class="term">${escapeHtml(heading)}</div>
+          ${currentLang !== "ja" ? `<div class="lang">JA: ${escapeHtml(getTerm(item, "ja"))}</div>` : ""}
+          ${currentLang !== "de" ? `<div class="lang">DE: ${escapeHtml(getTerm(item, "de"))}</div>` : ""}
+          ${currentLang !== "en" ? `<div class="lang">EN: ${escapeHtml(getTerm(item, "en"))}</div>` : ""}
+          ${currentLang !== "it" ? `<div class="lang">IT: ${escapeHtml(getTerm(item, "it"))}</div>` : ""}
+          <div class="note">${escapeHtml(item.note?.ja || "")}</div>
         `;
 
         container.appendChild(div);
       });
     }
 
-    document.getElementById("search").addEventListener("input", (e) => {
-      const q = e.target.value.toLowerCase();
+    function applyFilter() {
+      const q = currentQuery.trim().toLowerCase();
 
-      const filtered = data.filter(item =>
-        Object.values(item.term).some(v =>
-          v.toLowerCase().includes(q)
-        )
-      );
+      if (!q) {
+        render(data);
+        return;
+      }
+
+      const filtered = data.filter(item => {
+        const allTerms = Object.values(item.term || {});
+        const noteJa = item.note?.ja || "";
+        return [...allTerms, noteJa].some(v =>
+          String(v).toLowerCase().includes(q)
+        );
+      });
 
       render(filtered);
+    }
+
+    function updateLangButtons() {
+      document.querySelectorAll(".lang-btn").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.lang === currentLang);
+      });
+    }
+
+    function escapeHtml(str) {
+      return String(str)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#39;");
+    }
+
+    document.getElementById("search").addEventListener("input", (e) => {
+      currentQuery = e.target.value;
+      applyFilter();
+    });
+
+    document.getElementById("langSwitch").addEventListener("click", (e) => {
+      const btn = e.target.closest(".lang-btn");
+      if (!btn) return;
+
+      currentLang = btn.dataset.lang;
+      localStorage.setItem("ipdict_display_lang", currentLang);
+      updateLangButtons();
+      applyFilter();
     });
 
     load();
