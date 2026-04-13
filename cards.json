@@ -1,0 +1,74 @@
+[
+  {
+    "id": "tm-0001",
+    "term": {
+      "ja": "商標",
+      "de": "Marke",
+      "en": "trademark",
+      "it": "marchio"
+    },
+    "note": {
+      "ja": "商品やサービスを識別するための標識。"
+    }
+  },
+  {
+    "id": "tm-0002",
+    "term": {
+      "ja": "商標登録",
+      "de": "Markeneintragung",
+      "en": "trademark registration",
+      "it": "registrazione del marchio"
+    },
+    "note": {
+      "ja": "商標を法的に保護するための登録手続。"
+    }
+  },
+  {
+    "id": "tm-0003",
+    "term": {
+      "ja": "識別力",
+      "de": "Unterscheidungskraft",
+      "en": "distinctiveness",
+      "it": "capacità distintiva"
+    },
+    "note": {
+      "ja": "商標が他と区別できる能力。登録要件の一つ。"
+    }
+  },
+  {
+    "id": "tm-0004",
+    "term": {
+      "ja": "商品区分",
+      "de": "Warenklasse",
+      "en": "class of goods",
+      "it": "classe di prodotti"
+    },
+    "note": {
+      "ja": "ニース分類に基づく商品・サービスの区分。"
+    }
+  },
+  {
+    "id": "tm-0005",
+    "term": {
+      "ja": "指定役務",
+      "de": "Dienstleistungen",
+      "en": "designated services",
+      "it": "servizi designati"
+    },
+    "note": {
+      "ja": "商標登録において指定されるサービス。"
+    }
+  },
+  {
+    "id": "tm-0006",
+    "term": {
+      "ja": "商標権侵害",
+      "de": "Markenverletzung",
+      "en": "trademark infringement",
+      "it": "contraffazione del marchio"
+    },
+    "note": {
+      "ja": "登録商標の権利を侵害する行為。"
+    }
+  }
+]
