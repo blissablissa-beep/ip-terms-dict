@@ -1,74 +1,343 @@
 [
   {
     "id": "tm-0001",
+    "group": "trademark",
     "term": {
       "ja": "商標",
       "de": "Marke",
       "en": "trademark",
       "it": "marchio"
     },
-    "note": {
-      "ja": "商品やサービスを識別するための標識。"
-    }
+    "definition": {
+      "ja": "商品やサービスを識別するための標識。",
+      "de": "Zeichen, das Waren oder Dienstleistungen eines Unternehmens von denen anderer unterscheidet.",
+      "en": "A sign capable of distinguishing the goods or services of one undertaking from those of others.",
+      "it": "Segno atto a distinguere i prodotti o servizi di un'impresa da quelli di altre."
+    },
+    "note": { "ja": "商標法の基本概念。" }
   },
   {
     "id": "tm-0002",
+    "group": "registration",
     "term": {
       "ja": "商標登録",
       "de": "Markeneintragung",
       "en": "trademark registration",
       "it": "registrazione del marchio"
     },
-    "note": {
-      "ja": "商標を法的に保護するための登録手続。"
-    }
+    "definition": {
+      "ja": "商標を法的に保護するための登録手続。",
+      "de": "Verfahren zur Eintragung einer Marke zum rechtlichen Schutz.",
+      "en": "The procedure of registering a trademark to obtain legal protection.",
+      "it": "Procedura per registrare un marchio al fine di ottenere tutela legale."
+    },
+    "note": { "ja": "登録により独占権が発生。" }
   },
   {
     "id": "tm-0003",
+    "group": "distinctiveness",
     "term": {
       "ja": "識別力",
       "de": "Unterscheidungskraft",
       "en": "distinctiveness",
       "it": "capacità distintiva"
     },
-    "note": {
-      "ja": "商標が他と区別できる能力。登録要件の一つ。"
-    }
+    "definition": {
+      "ja": "商品・役務を他と区別できる能力。",
+      "de": "Fähigkeit einer Marke, Waren oder Dienstleistungen zu unterscheiden.",
+      "en": "Ability of a mark to distinguish goods or services.",
+      "it": "Capacità di distinguere prodotti o servizi."
+    },
+    "note": { "ja": "登録要件の中核。" }
   },
   {
     "id": "tm-0004",
+    "group": "classification",
     "term": {
       "ja": "商品区分",
       "de": "Warenklasse",
       "en": "class of goods",
       "it": "classe di prodotti"
     },
-    "note": {
-      "ja": "ニース分類に基づく商品・サービスの区分。"
-    }
+    "definition": {
+      "ja": "商品・サービスを分類する制度。",
+      "de": "System zur Klassifizierung von Waren und Dienstleistungen.",
+      "en": "System for classifying goods and services.",
+      "it": "Sistema di classificazione dei prodotti e servizi."
+    },
+    "note": { "ja": "ニース分類。" }
   },
   {
     "id": "tm-0005",
+    "group": "services",
     "term": {
       "ja": "指定役務",
       "de": "Dienstleistungen",
       "en": "designated services",
       "it": "servizi designati"
     },
-    "note": {
-      "ja": "商標登録において指定されるサービス。"
-    }
+    "definition": {
+      "ja": "登録時に指定されるサービス。",
+      "de": "Dienstleistungen, die im Rahmen der Anmeldung angegeben werden.",
+      "en": "Services specified in a trademark application.",
+      "it": "Servizi indicati nella domanda di marchio."
+    },
+    "note": { "ja": "保護範囲を決める。" }
   },
   {
     "id": "tm-0006",
+    "group": "infringement",
     "term": {
       "ja": "商標権侵害",
       "de": "Markenverletzung",
       "en": "trademark infringement",
       "it": "contraffazione del marchio"
     },
-    "note": {
-      "ja": "登録商標の権利を侵害する行為。"
-    }
+    "definition": {
+      "ja": "商標権を侵害する行為。",
+      "de": "Verletzung der Rechte aus einer Marke.",
+      "en": "Violation of trademark rights.",
+      "it": "Violazione dei diritti di marchio."
+    },
+    "note": { "ja": "差止・損害賠償の対象。" }
+  },
+
+  {
+    "id": "tm-0007",
+    "group": "application",
+    "term": {
+      "ja": "出願",
+      "de": "Anmeldung",
+      "en": "application",
+      "it": "domanda"
+    },
+    "definition": {
+      "ja": "商標登録を求める手続。",
+      "de": "Einreichung eines Antrags auf Markenschutz.",
+      "en": "Filing of a request for trademark protection.",
+      "it": "Deposito di una domanda di marchio."
+    },
+    "note": { "ja": "審査の開始点。" }
+  },
+  {
+    "id": "tm-0008",
+    "group": "priority",
+    "term": {
+      "ja": "先願主義",
+      "de": "Prioritätsprinzip",
+      "en": "first-to-file system",
+      "it": "principio del primo deposito"
+    },
+    "definition": {
+      "ja": "先に出願した者が優先される原則。",
+      "de": "Prinzip, nach dem die zuerst angemeldete Marke Vorrang hat.",
+      "en": "Principle that priority is given to the first filer.",
+      "it": "Principio secondo cui prevale chi deposita per primo."
+    },
+    "note": { "ja": "多くの国で採用。" }
+  },
+  {
+    "id": "tm-0009",
+    "group": "similarity",
+    "term": {
+      "ja": "類似商標",
+      "de": "ähnliche Marke",
+      "en": "similar trademark",
+      "it": "marchio simile"
+    },
+    "definition": {
+      "ja": "他の商標と類似する商標。",
+      "de": "Marke, die einer anderen ähnlich ist.",
+      "en": "Trademark similar to another.",
+      "it": "Marchio simile a un altro."
+    },
+    "note": { "ja": "混同判断に関係。" }
+  },
+  {
+    "id": "tm-0010",
+    "group": "nonuse",
+    "term": {
+      "ja": "不使用取消",
+      "de": "Verfall wegen Nichtbenutzung",
+      "en": "revocation for non-use",
+      "it": "decadenza per non uso"
+    },
+    "definition": {
+      "ja": "使用されていない商標の取消。",
+      "de": "Löschung einer Marke wegen fehlender Benutzung.",
+      "en": "Cancellation due to lack of use.",
+      "it": "Decadenza per mancato uso del marchio."
+    },
+    "note": { "ja": "一定期間未使用が条件。" }
+  },
+  {
+    "id": "tm-0011",
+    "group": "wellknown",
+    "term": {
+      "ja": "周知商標",
+      "de": "bekannte Marke",
+      "en": "well-known mark",
+      "it": "marchio notorio"
+    },
+    "definition": {
+      "ja": "広く認識されている商標。",
+      "de": "Marke, die einem breiten Publikum bekannt ist.",
+      "en": "Trademark widely known among consumers.",
+      "it": "Marchio conosciuto dal pubblico."
+    },
+    "note": { "ja": "保護が拡張される。" }
+  },
+  {
+    "id": "tm-0012",
+    "group": "famous",
+    "term": {
+      "ja": "著名商標",
+      "de": "berühmte Marke",
+      "en": "famous mark",
+      "it": "marchio rinomato"
+    },
+    "definition": {
+      "ja": "極めて高い知名度を持つ商標。",
+      "de": "Marke mit sehr hoher Bekanntheit.",
+      "en": "Highly recognized trademark.",
+      "it": "Marchio molto noto."
+    },
+    "note": { "ja": "希釈化保護の対象。" }
+  },
+  {
+    "id": "tm-0013",
+    "group": "descriptive",
+    "term": {
+      "ja": "記述的商標",
+      "de": "beschreibende Marke",
+      "en": "descriptive mark",
+      "it": "marchio descrittivo"
+    },
+    "definition": {
+      "ja": "商品の特徴を直接示す商標。",
+      "de": "Marke, die Eigenschaften der Ware beschreibt.",
+      "en": "Mark describing characteristics of goods.",
+      "it": "Marchio che descrive caratteristiche del prodotto."
+    },
+    "note": { "ja": "原則登録不可。" }
+  },
+  {
+    "id": "tm-0014",
+    "group": "distinctiveness",
+    "term": {
+      "ja": "識別力欠如",
+      "de": "fehlende Unterscheidungskraft",
+      "en": "lack of distinctiveness",
+      "it": "assenza di capacità distintiva"
+    },
+    "definition": {
+      "ja": "識別力を欠く状態。",
+      "de": "Fehlen der Unterscheidungskraft.",
+      "en": "Absence of distinctiveness.",
+      "it": "Mancanza di capacità distintiva."
+    },
+    "note": { "ja": "拒絶理由。" }
+  },
+  {
+    "id": "tm-0015",
+    "group": "goods",
+    "term": {
+      "ja": "指定商品",
+      "de": "Waren",
+      "en": "designated goods",
+      "it": "prodotti designati"
+    },
+    "definition": {
+      "ja": "登録対象の商品。",
+      "de": "Waren, die in der Anmeldung angegeben sind.",
+      "en": "Goods specified in the application.",
+      "it": "Prodotti indicati nella domanda."
+    },
+    "note": { "ja": "保護範囲に影響。" }
+  },
+  {
+    "id": "tm-0016",
+    "group": "renewal",
+    "term": {
+      "ja": "更新登録",
+      "de": "Verlängerung",
+      "en": "renewal",
+      "it": "rinnovo"
+    },
+    "definition": {
+      "ja": "権利期間の延長。",
+      "de": "Verlängerung der Schutzdauer.",
+      "en": "Extension of protection period.",
+      "it": "Estensione della durata del marchio."
+    },
+    "note": { "ja": "通常10年ごと。" }
+  },
+  {
+    "id": "tm-0017",
+    "group": "license",
+    "term": {
+      "ja": "ライセンス",
+      "de": "Lizenz",
+      "en": "license",
+      "it": "licenza"
+    },
+    "definition": {
+      "ja": "使用を許諾する契約。",
+      "de": "Vertrag über die Nutzung einer Marke.",
+      "en": "Agreement permitting use of a trademark.",
+      "it": "Contratto che autorizza l'uso del marchio."
+    },
+    "note": { "ja": "使用権設定。" }
+  },
+  {
+    "id": "tm-0018",
+    "group": "assignment",
+    "term": {
+      "ja": "譲渡",
+      "de": "Übertragung",
+      "en": "assignment",
+      "it": "cessione"
+    },
+    "definition": {
+      "ja": "権利の移転。",
+      "de": "Übertragung von Markenrechten.",
+      "en": "Transfer of trademark rights.",
+      "it": "Trasferimento dei diritti di marchio."
+    },
+    "note": { "ja": "契約による。" }
+  },
+  {
+    "id": "tm-0019",
+    "group": "opposition",
+    "term": {
+      "ja": "異議申立て",
+      "de": "Widerspruch",
+      "en": "opposition",
+      "it": "opposizione"
+    },
+    "definition": {
+      "ja": "登録に対する異議手続。",
+      "de": "Verfahren zum Widerspruch gegen eine Marke.",
+      "en": "Procedure to challenge a registration.",
+      "it": "Procedura di opposizione alla registrazione."
+    },
+    "note": { "ja": "登録後一定期間内。" }
+  },
+  {
+    "id": "tm-0020",
+    "group": "confusion",
+    "term": {
+      "ja": "混同のおそれ",
+      "de": "Verwechslungsgefahr",
+      "en": "likelihood of confusion",
+      "it": "rischio di confusione"
+    },
+    "definition": {
+      "ja": "需要者が誤認する可能性。",
+      "de": "Gefahr, dass Verbraucher Marken verwechseln.",
+      "en": "Likelihood that consumers are confused.",
+      "it": "Possibilità che i consumatori si confondano."
+    },
+    "note": { "ja": "侵害判断の中心。" }
   }
 ]
