@@ -1,4 +1,4 @@
-const CACHE_NAME = "ip-terms-dict-v1";
+const CACHE_NAME = "ip-terms-dict-v2";
 
 const ASSETS = [
   "./",
