@@ -680,6 +680,210 @@
     },
     "note": {
       "ja": "マドリッド制度の理解に重要。"
-    }
+    },
+  {
+    "id": "tm-0039",
+    "group": "trial-invalidity",
+    "term": {
+      "ja": "無効審判の除斥期間",
+      "de": "Ausschlussfrist für das Nichtigkeitsverfahren",
+      "en": "exclusion period for invalidation trial",
+      "it": "termine di decadenza per il procedimento di nullità"
+    },
+    "definition": {
+      "ja": "無効審判を請求できる期間の制限。",
+      "de": "Frist, innerhalb derer ein Nichtigkeitsverfahren eingeleitet werden kann.",
+      "en": "Time limit within which an invalidation trial may be requested.",
+      "it": "Periodo entro cui può essere richiesta la nullità del marchio."
+    },
+    "note": { "ja": "経過後は請求できない場合がある。" }
+  },
+  {
+    "id": "tm-0040",
+    "group": "examination",
+    "term": {
+      "ja": "商標審査基準",
+      "de": "Markenprüfungsrichtlinien",
+      "en": "trademark examination guidelines",
+      "it": "linee guida per l'esame dei marchi"
+    },
+    "definition": {
+      "ja": "審査官が審査に用いる基準。",
+      "de": "Richtlinien für die Prüfung von Markenanmeldungen.",
+      "en": "Guidelines used by examiners in trademark examination.",
+      "it": "Linee guida utilizzate dagli esaminatori per l'esame dei marchi."
+    },
+    "note": { "ja": "実務上重要な解釈指針。" }
+  },
+  {
+    "id": "tm-0041",
+    "group": "examination",
+    "term": {
+      "ja": "商標審査官",
+      "de": "Markenprüfer",
+      "en": "trademark examiner",
+      "it": "esaminatore di marchi"
+    },
+    "definition": {
+      "ja": "商標出願を審査する職員。",
+      "de": "Beamter, der Markenanmeldungen prüft.",
+      "en": "Official who examines trademark applications.",
+      "it": "Funzionario che esamina le domande di marchio."
+    },
+    "note": { "ja": "登録可否を判断する。" }
+  },
+  {
+    "id": "tm-0042",
+    "group": "trial",
+    "term": {
+      "ja": "商標審判官",
+      "de": "Markenrichter",
+      "en": "trial examiner (trademark)",
+      "it": "giudice amministrativo del marchio"
+    },
+    "definition": {
+      "ja": "審判手続を担当する職員。",
+      "de": "Person, die im Markenverfahren als Entscheider tätig ist.",
+      "en": "Official who conducts trademark trial proceedings.",
+      "it": "Funzionario che decide nei procedimenti di ricorso."
+    },
+    "note": { "ja": "審査官とは役割が異なる。" }
+  },
+  {
+    "id": "tm-0043",
+    "group": "decision",
+    "term": {
+      "ja": "登録査定",
+      "de": "Eintragungsbeschluss",
+      "en": "decision to register",
+      "it": "decisione di registrazione"
+    },
+    "definition": {
+      "ja": "商標登録を認める判断。",
+      "de": "Entscheidung, eine Marke einzutragen.",
+      "en": "Decision to allow trademark registration.",
+      "it": "Decisione che consente la registrazione del marchio."
+    },
+    "note": { "ja": "登録手続に進む。" }
+  },
+  {
+    "id": "tm-0044",
+    "group": "decision",
+    "term": {
+      "ja": "拒絶査定",
+      "de": "Zurückweisungsbeschluss",
+      "en": "decision of refusal",
+      "it": "decisione di rifiuto"
+    },
+    "definition": {
+      "ja": "登録を認めない判断。",
+      "de": "Entscheidung, eine Anmeldung zurückzuweisen.",
+      "en": "Decision refusing registration.",
+      "it": "Decisione che rifiuta la registrazione."
+    },
+    "note": { "ja": "不服申立てが可能。" }
+  },
+  {
+    "id": "tm-0045",
+    "group": "appeal",
+    "term": {
+      "ja": "拒絶査定不服審判",
+      "de": "Beschwerde gegen die Zurückweisung",
+      "en": "appeal against refusal decision",
+      "it": "ricorso contro il rifiuto"
+    },
+    "definition": {
+      "ja": "拒絶査定に対する不服申立て。",
+      "de": "Rechtsmittel gegen eine Zurückweisung.",
+      "en": "Appeal filed against a refusal decision.",
+      "it": "Ricorso presentato contro una decisione di rifiuto."
+    },
+    "note": { "ja": "審判で再審理される。" }
+  },
+  {
+    "id": "tm-0046",
+    "group": "trial",
+    "term": {
+      "ja": "拒絶審決",
+      "de": "ablehnende Entscheidung im Beschwerdeverfahren",
+      "en": "trial decision of refusal",
+      "it": "decisione di rigetto in sede di ricorso"
+    },
+    "definition": {
+      "ja": "審判における拒絶の最終判断。",
+      "de": "Endentscheidung, die die Zurückweisung bestätigt.",
+      "en": "Final decision confirming refusal.",
+      "it": "Decisione finale che conferma il rifiuto."
+    },
+    "note": { "ja": "さらに訴訟が可能。" }
+  },
+  {
+    "id": "tm-0047",
+    "group": "litigation",
+    "term": {
+      "ja": "拒絶審決取消訴訟",
+      "de": "Klage gegen die ablehnende Entscheidung",
+      "en": "action for revocation of trial decision",
+      "it": "azione contro la decisione di rigetto"
+    },
+    "definition": {
+      "ja": "拒絶審決の取消しを求める訴訟。",
+      "de": "Gerichtsverfahren zur Aufhebung einer ablehnenden Entscheidung.",
+      "en": "Court action to overturn a refusal decision.",
+      "it": "Procedimento giudiziario per annullare una decisione di rigetto."
+    },
+    "note": { "ja": "知財高裁が管轄。" }
+  },
+  {
+    "id": "tm-0048",
+    "group": "court",
+    "term": {
+      "ja": "知財高裁",
+      "de": "IP-Hochgericht",
+      "en": "Intellectual Property High Court",
+      "it": "Alta Corte della Proprietà Intellettuale"
+    },
+    "definition": {
+      "ja": "知的財産事件を専門に扱う高等裁判所。",
+      "de": "Spezialgericht für geistiges Eigentum.",
+      "en": "Specialized court for intellectual property cases.",
+      "it": "Tribunale specializzato in proprietà intellettuale."
+    },
+    "note": { "ja": "審決取消訴訟を扱う。" }
+  },
+  {
+    "id": "tm-0049",
+    "group": "court",
+    "term": {
+      "ja": "最高裁",
+      "de": "Oberster Gerichtshof",
+      "en": "Supreme Court",
+      "it": "Corte Suprema"
+    },
+    "definition": {
+      "ja": "日本の最上級裁判所。",
+      "de": "Höchstes Gericht eines Landes.",
+      "en": "Highest court in a judicial system.",
+      "it": "Massima autorità giudiziaria."
+    },
+    "note": { "ja": "最終審を担当。" }
+  },
+  {
+    "id": "tm-0050",
+    "group": "concept",
+    "term": {
+      "ja": "需要者・取引者",
+      "de": "Verbraucher und Verkehrskreise",
+      "en": "consumers and traders",
+      "it": "consumatori e operatori commerciali"
+    },
+    "definition": {
+      "ja": "商標の認識主体となる人々。",
+      "de": "Personenkreise, die mit der Marke in Berührung kommen.",
+      "en": "Persons who perceive and interact with the trademark.",
+      "it": "Soggetti che entrano in contatto con il marchio."
+    },
+    "note": { "ja": "混同判断の基準となる。" }
+  }
     }
 ]
