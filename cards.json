@@ -885,5 +885,261 @@
       "it": "Soggetti che entrano in contatto con il marchio."
     },
     "note": { "ja": "混同判断の基準となる。" }
+  },
+  ,
+  {
+    "id": "tm-0051",
+    "group": "mark-type",
+    "term": {
+      "ja": "文字商標",
+      "de": "Wortmarke",
+      "en": "word mark",
+      "it": "marchio denominativo"
+    },
+    "definition": {
+      "ja": "文字のみからなる商標。",
+      "de": "Marke, die ausschließlich aus Wörtern oder Buchstaben besteht.",
+      "en": "A mark consisting only of words or letters.",
+      "it": "Marchio costituito soltanto da parole o lettere."
+    },
+    "note": { "ja": "最も基本的な商標類型の一つ。" }
+  },
+  {
+    "id": "tm-0052",
+    "group": "mark-type",
+    "term": {
+      "ja": "図形商標",
+      "de": "Bildmarke",
+      "en": "figurative mark",
+      "it": "marchio figurativo"
+    },
+    "definition": {
+      "ja": "図形やデザインからなる商標。",
+      "de": "Marke, die aus grafischen Elementen besteht.",
+      "en": "A mark consisting of graphic elements or designs.",
+      "it": "Marchio costituito da elementi grafici o disegni."
+    },
+    "note": { "ja": "ロゴなどが典型例。" }
+  },
+  {
+    "id": "tm-0053",
+    "group": "mark-type",
+    "term": {
+      "ja": "結合商標",
+      "de": "kombinierte Marke",
+      "en": "combined mark",
+      "it": "marchio combinato"
+    },
+    "definition": {
+      "ja": "文字と図形など複数要素が結合した商標。",
+      "de": "Marke, die aus mehreren kombinierten Elementen besteht.",
+      "en": "A mark composed of combined elements such as words and figures.",
+      "it": "Marchio composto da più elementi combinati, come parole e figure."
+    },
+    "note": { "ja": "文字とロゴの組合せが典型。" }
+  },
+  {
+    "id": "tm-0054",
+    "group": "mark-type",
+    "term": {
+      "ja": "立体商標",
+      "de": "dreidimensionale Marke",
+      "en": "three-dimensional mark",
+      "it": "marchio tridimensionale"
+    },
+    "definition": {
+      "ja": "立体的形状からなる商標。",
+      "de": "Marke, die aus einer dreidimensionalen Form besteht.",
+      "en": "A mark consisting of a three-dimensional shape.",
+      "it": "Marchio costituito da una forma tridimensionale."
+    },
+    "note": { "ja": "容器や商品の形状が問題になる。" }
+  },
+  {
+    "id": "tm-0055",
+    "group": "mark-type",
+    "term": {
+      "ja": "位置商標",
+      "de": "Positionsmarke",
+      "en": "position mark",
+      "it": "marchio di posizione"
+    },
+    "definition": {
+      "ja": "標章を商品等の特定位置に付すことで識別力を持つ商標。",
+      "de": "Marke, deren Schutz sich auf die bestimmte Position eines Zeichens auf der Ware bezieht.",
+      "en": "A mark protected by the specific position of a sign on goods or other items.",
+      "it": "Marchio caratterizzato dalla posizione specifica del segno sul prodotto."
+    },
+    "note": { "ja": "新しいタイプの商標の一つ。" }
+  },
+  {
+    "id": "tm-0056",
+    "group": "mark-type",
+    "term": {
+      "ja": "音商標",
+      "de": "Klangmarke",
+      "en": "sound mark",
+      "it": "marchio sonoro"
+    },
+    "definition": {
+      "ja": "音によって識別される商標。",
+      "de": "Marke, die durch einen Klang oder Ton gekennzeichnet ist.",
+      "en": "A mark identified by a sound.",
+      "it": "Marchio identificato da un suono."
+    },
+    "note": { "ja": "メロディーや効果音が問題となる。" }
+  },
+  {
+    "id": "tm-0057",
+    "group": "mark-type",
+    "term": {
+      "ja": "色彩のみからなる商標",
+      "de": "Farbmarke als solche",
+      "en": "color mark consisting solely of colors",
+      "it": "marchio costituito esclusivamente da colori"
+    },
+    "definition": {
+      "ja": "色や色の組合せそのものからなる商標。",
+      "de": "Marke, die ausschließlich aus einer Farbe oder Farbkombination als solcher besteht.",
+      "en": "A mark consisting solely of a color or combination of colors as such.",
+      "it": "Marchio costituito esclusivamente da un colore o da una combinazione di colori."
+    },
+    "note": { "ja": "JPOの制度説明に沿った見出し。" }
+  },
+  {
+    "id": "tm-0058",
+    "group": "mark-type",
+    "term": {
+      "ja": "ホログラム商標",
+      "de": "Hologrammmarke",
+      "en": "hologram mark",
+      "it": "marchio olografico"
+    },
+    "definition": {
+      "ja": "ホログラムによって表示される商標。",
+      "de": "Marke, die durch holografische Darstellung gekennzeichnet ist.",
+      "en": "A mark represented by a hologram.",
+      "it": "Marchio rappresentato mediante ologramma."
+    },
+    "note": { "ja": "新しいタイプの商標の一つ。" }
+  },
+  {
+    "id": "tm-0059",
+    "group": "mark-type",
+    "term": {
+      "ja": "動き商標",
+      "de": "Bewegungsmarke",
+      "en": "motion mark",
+      "it": "marchio di movimento"
+    },
+    "definition": {
+      "ja": "動きや変化の過程によって識別される商標。",
+      "de": "Marke, die durch eine Bewegung oder Veränderung dargestellt wird.",
+      "en": "A mark consisting of a movement or change in position.",
+      "it": "Marchio costituito da un movimento o da una variazione."
+    },
+    "note": { "ja": "新しいタイプの商標の一つ。" }
+  },
+  {
+    "id": "tm-0060",
+    "group": "mark-type",
+    "term": {
+      "ja": "匂い商標",
+      "de": "Geruchsmarke",
+      "en": "smell mark",
+      "it": "marchio olfattivo"
+    },
+    "definition": {
+      "ja": "匂いによって識別される商標という考え方。",
+      "de": "Konzept einer Marke, die durch einen Geruch identifiziert wird.",
+      "en": "The concept of a mark identified by a smell.",
+      "it": "Concetto di marchio identificato da un odore."
+    },
+    "note": { "ja": "学習用見出し。制度上の扱いは国・時期により注意。" }
+  },
+  {
+    "id": "tm-0061",
+    "group": "special-system",
+    "term": {
+      "ja": "防護標章",
+      "de": "Defensivmarke",
+      "en": "defensive mark",
+      "it": "marchio difensivo"
+    },
+    "definition": {
+      "ja": "著名商標について、非類似商品・役務にも保護を広げるための標章制度。",
+      "de": "System zum erweiterten Schutz bekannter Marken auch für nicht ähnliche Waren oder Dienstleistungen.",
+      "en": "A system extending protection of a well-known mark to dissimilar goods or services.",
+      "it": "Sistema che estende la tutela di un marchio noto anche a prodotti o servizi non simili."
+    },
+    "note": { "ja": "著名性が前提となる。" }
+  },
+  {
+    "id": "tm-0062",
+    "group": "special-system",
+    "term": {
+      "ja": "団体商標",
+      "de": "Kollektivmarke",
+      "en": "collective mark",
+      "it": "marchio collettivo"
+    },
+    "definition": {
+      "ja": "団体がその構成員に使用させるための商標。",
+      "de": "Marke, die von einer Vereinigung für ihre Mitglieder genutzt wird.",
+      "en": "A mark used by members of an association or collective body.",
+      "it": "Marchio utilizzato dai membri di un'associazione o ente collettivo."
+    },
+    "note": { "ja": "団体商標登録制度に対応。" }
+  },
+  {
+    "id": "tm-0063",
+    "group": "special-system",
+    "term": {
+      "ja": "地域団体商標",
+      "de": "regionale Kollektivmarke",
+      "en": "regional collective trademark",
+      "it": "marchio collettivo regionale"
+    },
+    "definition": {
+      "ja": "地域名と商品・役務名などを組み合わせた団体商標。",
+      "de": "Kollektivmarke, die einen geografischen Namen mit Waren oder Dienstleistungen verbindet.",
+      "en": "A collective trademark combining a regional name with goods or services.",
+      "it": "Marchio collettivo che combina un nome geografico con prodotti o servizi."
+    },
+    "note": { "ja": "地域ブランド保護との関係で重要。" }
+  },
+  {
+    "id": "tm-0064",
+    "group": "customs",
+    "term": {
+      "ja": "模倣品輸入の税関差止",
+      "de": "zollrechtliche Aussetzung der Einfuhr von Nachahmungen",
+      "en": "customs suspension of importation of counterfeit goods",
+      "it": "blocco doganale dell'importazione di merci contraffatte"
+    },
+    "definition": {
+      "ja": "模倣品などについて税関で輸入を差し止める措置。",
+      "de": "Maßnahme der Zollbehörden zur Aussetzung der Einfuhr nachgeahmter Waren.",
+      "en": "A customs measure suspending the import of counterfeit or infringing goods.",
+      "it": "Misura doganale che blocca l'importazione di merci contraffatte o in violazione."
+    },
+    "note": { "ja": "税関の認定手続・差止申立制度と関係する。" }
+  },
+  {
+    "id": "tm-0065",
+    "group": "international-trade",
+    "term": {
+      "ja": "並行輸入",
+      "de": "Parallelimport",
+      "en": "parallel import",
+      "it": "importazione parallela"
+    },
+    "definition": {
+      "ja": "権利者の流通ルートとは別に真正商品が輸入されること。",
+      "de": "Import echter Waren außerhalb des offiziellen Vertriebswegs des Rechtsinhabers.",
+      "en": "Importation of genuine goods outside the trademark owner’s official distribution channel.",
+      "it": "Importazione di prodotti autentici al di fuori del canale ufficiale del titolare."
+    },
+    "note": { "ja": "適法性判断は要件次第で変わる。" }
   }
 ]
