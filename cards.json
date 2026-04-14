@@ -1140,6 +1140,142 @@
       "it": "Importazione di prodotti autentici al di fuori del canale ufficiale del titolare."
     },
     "note": { "ja": "適法性判断は要件次第で変わる。" }
+  },
+  {
+    "id": "tm-0066",
+    "group": "similarity",
+    "term": {
+      "ja": "商標の類似度",
+      "de": "Ähnlichkeitsgrad von Marken",
+      "en": "degree of similarity between trademarks",
+      "it": "grado di somiglianza tra marchi"
+    },
+    "definition": {
+      "ja": "二つの商標がどの程度似ているかの評価。",
+      "de": "Bewertung, wie ähnlich sich zwei Marken sind.",
+      "en": "Assessment of how similar two trademarks are.",
+      "it": "Valutazione del grado di somiglianza tra due marchi."
+    },
+    "note": { "ja": "混同のおそれ判断の前提。" }
+  },
+  {
+    "id": "tm-0067",
+    "group": "wellknown",
+    "term": {
+      "ja": "商標の周知性",
+      "de": "Bekanntheit einer Marke",
+      "en": "distinctiveness / recognition of a mark",
+      "it": "notorietà del marchio"
+    },
+    "definition": {
+      "ja": "需要者の間でどの程度知られているかという性質。",
+      "de": "Grad der Bekanntheit einer Marke im relevanten Verkehrskreis.",
+      "en": "Degree to which a trademark is recognized among relevant consumers.",
+      "it": "Grado di conoscenza del marchio tra il pubblico rilevante."
+    },
+    "note": { "ja": "著名性・周知性は保護範囲に影響。" }
+  },
+  {
+    "id": "tm-0068",
+    "group": "similarity",
+    "term": {
+      "ja": "外観・称呼・観念・取引事情",
+      "de": "visuelle, klangliche, begriffliche Ähnlichkeit und Marktumstände",
+      "en": "appearance, pronunciation, concept, and trade circumstances",
+      "it": "aspetto, pronuncia, concetto e circostanze di mercato"
+    },
+    "definition": {
+      "ja": "商標の類否判断に用いられる主要な評価要素。",
+      "de": "Hauptkriterien zur Beurteilung der Markenähnlichkeit.",
+      "en": "Key factors used to assess trademark similarity.",
+      "it": "Fattori principali per valutare la somiglianza tra marchi."
+    },
+    "note": { "ja": "外観・称呼・観念の三要素＋取引事情。" }
+  },
+  {
+    "id": "tm-0069",
+    "group": "procedure",
+    "term": {
+      "ja": "商標早期審査制度",
+      "de": "beschleunigtes Markenprüfungsverfahren",
+      "en": "accelerated trademark examination system",
+      "it": "procedura accelerata di esame del marchio"
+    },
+    "definition": {
+      "ja": "通常よりも早く審査を受けられる制度。",
+      "de": "Verfahren, das eine schnellere Prüfung einer Markenanmeldung ermöglicht.",
+      "en": "A system allowing faster examination of trademark applications.",
+      "it": "Sistema che consente un esame più rapido della domanda di marchio."
+    },
+    "note": { "ja": "一定の要件を満たす必要がある。" }
+  },
+  {
+    "id": "tm-0070",
+    "group": "procedure",
+    "term": {
+      "ja": "使用事実の証明・使用予定の宣誓",
+      "de": "Nachweis der Benutzung oder Benutzungsabsicht",
+      "en": "proof of use or declaration of intent to use",
+      "it": "prova dell'uso o dichiarazione di intento d'uso"
+    },
+    "definition": {
+      "ja": "商標の使用実績や使用予定を示す手続。",
+      "de": "Nachweis der tatsächlichen Nutzung oder der Absicht zur Nutzung einer Marke.",
+      "en": "Procedure to prove use or declare intent to use a trademark.",
+      "it": "Procedura per dimostrare l'uso o dichiarare l'intenzione d'uso."
+    },
+    "note": { "ja": "制度は国により異なる。" }
+  },
+  {
+    "id": "tm-0071",
+    "group": "infringement",
+    "term": {
+      "ja": "使用差止請求",
+      "de": "Unterlassungsanspruch",
+      "en": "injunction against use",
+      "it": "azione inibitoria"
+    },
+    "definition": {
+      "ja": "侵害行為の停止を求める請求。",
+      "de": "Anspruch auf Unterlassung einer Markenverletzung.",
+      "en": "Claim to stop infringing use.",
+      "it": "Richiesta di cessazione dell'uso illecito."
+    },
+    "note": { "ja": "侵害救済の中心的手段。" }
+  },
+  {
+    "id": "tm-0072",
+    "group": "damages",
+    "term": {
+      "ja": "損害賠償請求権",
+      "de": "Schadensersatzanspruch",
+      "en": "right to claim damages",
+      "it": "diritto al risarcimento dei danni"
+    },
+    "definition": {
+      "ja": "侵害による損害の賠償を求める権利。",
+      "de": "Anspruch auf Ersatz des durch die Verletzung entstandenen Schadens.",
+      "en": "Right to seek compensation for damages caused by infringement.",
+      "it": "Diritto a ottenere il risarcimento dei danni."
+    },
+    "note": { "ja": "侵害責任の基本。" }
+  },
+  {
+    "id": "tm-0073",
+    "group": "damages",
+    "term": {
+      "ja": "損害額の推定",
+      "de": "Schätzung des Schadens",
+      "en": "presumption of damages",
+      "it": "presunzione del danno"
+    },
+    "definition": {
+      "ja": "損害額の立証を容易にするための法的推定。",
+      "de": "Rechtliche Vermutung zur Erleichterung der Schadensberechnung.",
+      "en": "Legal presumption used to facilitate calculation of damages.",
+      "it": "Presunzione legale per facilitare la quantificazione del danno."
+    },
+    "note": { "ja": "実務上重要な算定ルール。" }
   }
   }
 ]
