@@ -1276,5 +1276,226 @@
       "it": "Presunzione legale per facilitare la quantificazione del danno."
     },
     "note": { "ja": "実務上重要な算定ルール。" }
+  },
+  {
+    "id": "tm-0074",
+    "group": "duration",
+    "term": {
+      "ja": "商標権の存続期間満了",
+      "de": "Ablauf der Schutzdauer der Marke",
+      "en": "expiration of trademark right",
+      "it": "scadenza della durata del marchio"
+    },
+    "definition": {
+      "ja": "商標権の保護期間が終了すること。",
+      "de": "Ende der Schutzdauer einer Marke.",
+      "en": "The end of the protection period of a trademark.",
+      "it": "Fine del periodo di protezione del marchio."
+    },
+    "note": { "ja": "更新しない場合に消滅。" }
+  },
+  {
+    "id": "tm-0075",
+    "group": "procedure",
+    "term": {
+      "ja": "商標の審査期間",
+      "de": "Prüfungsdauer einer Marke",
+      "en": "examination period for trademarks",
+      "it": "durata dell'esame del marchio"
+    },
+    "definition": {
+      "ja": "出願から審査結果が出るまでの期間。",
+      "de": "Zeitraum von der Anmeldung bis zur Entscheidung.",
+      "en": "The time from filing to examination decision.",
+      "it": "Periodo dalla domanda alla decisione dell'esame."
+    },
+    "note": { "ja": "国や制度により異なる。" }
+  },
+  {
+    "id": "tm-0076",
+    "group": "publication",
+    "term": {
+      "ja": "出願公告",
+      "de": "Bekanntmachung der Anmeldung",
+      "en": "publication of application",
+      "it": "pubblicazione della domanda"
+    },
+    "definition": {
+      "ja": "出願内容を公に知らせる手続。",
+      "de": "Veröffentlichung des Inhalts einer Markenanmeldung.",
+      "en": "Public announcement of a trademark application.",
+      "it": "Pubblicazione del contenuto della domanda di marchio."
+    },
+    "note": { "ja": "制度や時期により用語の扱いに差あり。" }
+  },
+  {
+    "id": "tm-0077",
+    "group": "procedure",
+    "term": {
+      "ja": "コンセントレター",
+      "de": "Zustimmungsschreiben des Inhabers einer älteren Marke",
+      "en": "letter of consent",
+      "it": "lettera di consenso"
+    },
+    "definition": {
+      "ja": "先行商標権者が後願商標の登録に同意する旨を示す書面。",
+      "de": "Schriftliche Zustimmung des Inhabers einer älteren Marke zur Eintragung einer jüngeren Marke.",
+      "en": "A document in which the owner of an earlier trademark consents to the registration of a later mark.",
+      "it": "Documento con cui il titolare di un marchio anteriore acconsente alla registrazione di un marchio successivo."
+    },
+    "note": { "ja": "併存登録の判断要素となりうる。" }
+  },
+  {
+    "id": "tm-0078",
+    "group": "international",
+    "term": {
+      "ja": "外国への商標直接出願",
+      "de": "direkte Auslandsanmeldung einer Marke",
+      "en": "direct foreign trademark application",
+      "it": "domanda diretta all'estero di marchio"
+    },
+    "definition": {
+      "ja": "各国に個別に商標出願を行う方法。",
+      "de": "Einreichung von Markenanmeldungen direkt in einzelnen Ländern.",
+      "en": "Filing trademark applications separately in each foreign country.",
+      "it": "Deposito di domande di marchio direttamente nei singoli paesi."
+    },
+    "note": { "ja": "マドプロとの対比で理解。" }
+  },
+  {
+    "id": "tm-0079",
+    "group": "madrid",
+    "term": {
+      "ja": "国際商標登録出願",
+      "de": "internationale Markenanmeldung",
+      "en": "international trademark application",
+      "it": "domanda internazionale di marchio"
+    },
+    "definition": {
+      "ja": "マドリッド制度に基づき複数国への保護を求める出願。",
+      "de": "Anmeldung einer Marke über das Madrider System für mehrere Länder.",
+      "en": "Application under the Madrid System seeking protection in multiple countries.",
+      "it": "Domanda basata sul sistema di Madrid per ottenere protezione in più paesi."
+    },
+    "note": { "ja": "本国官庁を経由してWIPOに送付。" }
+  },
+  {
+    "id": "tm-0080",
+    "group": "madrid",
+    "term": {
+      "ja": "マドリッド議定書加盟国",
+      "de": "Vertragsparteien des Madrider Protokolls",
+      "en": "members of the Madrid Protocol",
+      "it": "paesi aderenti al Protocollo di Madrid"
+    },
+    "definition": {
+      "ja": "マドリッド議定書に参加している国または地域。",
+      "de": "Staaten oder Organisationen, die dem Madrider Protokoll beigetreten sind.",
+      "en": "Countries or regions that are parties to the Madrid Protocol.",
+      "it": "Paesi o regioni che aderiscono al Protocollo di Madrid."
+    },
+    "note": { "ja": "指定可能な保護対象国となる。" }
+  },
+  {
+    "id": "tm-0081",
+    "group": "priority",
+    "term": {
+      "ja": "優先権期間",
+      "de": "Prioritätsfrist",
+      "en": "priority period",
+      "it": "periodo di priorità"
+    },
+    "definition": {
+      "ja": "先の出願日を基準として優先権を主張できる期間。",
+      "de": "Frist, innerhalb derer die Priorität einer früheren Anmeldung beansprucht werden kann.",
+      "en": "Period during which priority of an earlier filing can be claimed.",
+      "it": "Periodo entro cui può essere rivendicata la priorità di una domanda anteriore."
+    },
+    "note": { "ja": "通常6か月。" }
+  },
+  {
+    "id": "tm-0082",
+    "group": "madrid",
+    "term": {
+      "ja": "本国官庁",
+      "de": "Ursprungsamt",
+      "en": "office of origin",
+      "it": "ufficio di origine"
+    },
+    "definition": {
+      "ja": "国際出願を受理しWIPOに送付する自国の官庁。",
+      "de": "Behörde, die die internationale Anmeldung entgegennimmt und weiterleitet.",
+      "en": "Authority that receives and forwards the international application to WIPO.",
+      "it": "Autorità che riceve e trasmette la domanda internazionale al WIPO."
+    },
+    "note": { "ja": "基礎商標との関係で重要。" }
+  },
+  {
+    "id": "tm-0083",
+    "group": "madrid",
+    "term": {
+      "ja": "指定官庁",
+      "de": "benanntes Amt",
+      "en": "designated office",
+      "it": "ufficio designato"
+    },
+    "definition": {
+      "ja": "国際登録に基づき保護が求められる各国の官庁。",
+      "de": "Behörde eines Landes, in dem Schutz beantragt wird.",
+      "en": "Authority of a country where protection is sought.",
+      "it": "Autorità del paese in cui si richiede la protezione."
+    },
+    "note": { "ja": "各国で実体審査が行われる。" }
+  },
+  {
+    "id": "tm-0084",
+    "group": "madrid",
+    "term": {
+      "ja": "国際事務局",
+      "de": "Internationales Büro (WIPO)",
+      "en": "International Bureau (WIPO)",
+      "it": "Ufficio internazionale (OMPI)"
+    },
+    "definition": {
+      "ja": "WIPOに設置され、国際商標登録を管理する機関。",
+      "de": "Bei der WIPO eingerichtete Stelle zur Verwaltung internationaler Markenregistrierungen.",
+      "en": "Body within WIPO that administers international trademark registrations.",
+      "it": "Organo dell'OMPI che gestisce le registrazioni internazionali dei marchi."
+    },
+    "note": { "ja": "方式審査や登録管理を担当。" }
+  },
+  {
+    "id": "tm-0085",
+    "group": "madrid",
+    "term": {
+      "ja": "欠陥通報",
+      "de": "Mängelmitteilung",
+      "en": "notification of irregularity",
+      "it": "notifica di irregolarità"
+    },
+    "definition": {
+      "ja": "国際出願の方式上の不備についての通知。",
+      "de": "Mitteilung über formale Mängel einer internationalen Anmeldung.",
+      "en": "Notification of formal defects in an international application.",
+      "it": "Notifica di irregolarità formali nella domanda internazionale."
+    },
+    "note": { "ja": "WIPOから本国官庁または出願人に送られる。" }
+  },
+  {
+    "id": "tm-0086",
+    "group": "madrid",
+    "term": {
+      "ja": "暫定拒絶通報",
+      "de": "vorläufige Schutzverweigerung",
+      "en": "provisional refusal",
+      "it": "rifiuto provvisorio"
+    },
+    "definition": {
+      "ja": "指定国において登録が認められない旨の暫定的通知。",
+      "de": "Vorläufige Mitteilung, dass der Markenschutz verweigert wird.",
+      "en": "Provisional notification that protection is refused in a designated country.",
+      "it": "Notifica provvisoria di rifiuto della protezione in un paese designato."
+    },
+    "note": { "ja": "各国法に基づき理由が示される。" }
   }
 ]
