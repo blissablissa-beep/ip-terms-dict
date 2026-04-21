@@ -1,1501 +1,381 @@
 [
   {
-    "id": "tm-0001",
-    "group": "trademark",
-    "term": {
-      "ja": "商標",
-      "de": "Marke",
-      "en": "trademark",
-      "it": "marchio"
+    "id": "tm-basic-0001",
+    "level": "basic",
+    "topic": {
+      "ja": "日本の商標法の目的",
+      "en": "Purpose of Japanese Trademark Law",
+      "de": "Zweck des japanischen Markenrechts",
+      "it": "Finalità del diritto dei marchi giapponese"
     },
-    "definition": {
-      "ja": "商品やサービスを識別するための標識。",
-      "de": "Zeichen, das Waren oder Dienstleistungen eines Unternehmens von denen anderer unterscheidet.",
-      "en": "A sign capable of distinguishing the goods or services of one undertaking from those of others.",
-      "it": "Segno atto a distinguere i prodotti o servizi di un'impresa da quelli di altre."
+    "summary": {
+      "ja": "商標法は、商標の保護を通じて業務上の信用を維持し、需要者の利益を保護することを目的とする。",
+      "en": "Japanese trademark law protects trademarks, business goodwill, and consumer interests.",
+      "de": "Das japanische Markenrecht schützt Marken, den geschäftlichen Goodwill und die Interessen der Verbraucher.",
+      "it": "Il diritto giapponese dei marchi protegge i marchi, l’avviamento commerciale e gli interessi dei consumatori."
     },
-    "note": { "ja": "商標法の基本概念。" }
-  },
-  {
-    "id": "tm-0002",
-    "group": "registration",
-    "term": {
-      "ja": "商標登録",
-      "de": "Markeneintragung",
-      "en": "trademark registration",
-      "it": "registrazione del marchio"
+    "notes": {
+      "ja": "商標は単なる記号ではなく、商品の出所を示す機能を持つ。この機能を守ることで、公正な競争と消費者保護が実現される。したがって、制度の中心はブランドそのものではなく、その出所表示機能の保護にある。",
+      "en": "Trademarks are not merely signs but indicators of commercial origin. By protecting this function, the law promotes fair competition and consumer protection. The focus is therefore not on the mark itself, but on its source-indicating function.",
+      "de": "Marken sind nicht nur Zeichen, sondern weisen auf die betriebliche Herkunft hin. Der Schutz dieser Funktion fördert fairen Wettbewerb und den Schutz der Verbraucher. Im Mittelpunkt steht daher die Herkunftsfunktion, nicht das Zeichen selbst.",
+      "it": "I marchi non sono semplici segni, ma indicano l’origine commerciale. Proteggere questa funzione sostiene la concorrenza leale e la tutela dei consumatori. Il sistema si concentra quindi sulla funzione distintiva di origine."
     },
-    "definition": {
-      "ja": "商標を法的に保護するための登録手続。",
-      "de": "Verfahren zur Eintragung einer Marke zum rechtlichen Schutz.",
-      "en": "The procedure of registering a trademark to obtain legal protection.",
-      "it": "Procedura per registrare un marchio al fine di ottenere tutela legale."
+    "business_note": {
+      "ja": "『ブランドの出所表示機能の保護』と説明すると海外の相手に伝わりやすい。",
+      "en": "Explain that the system focuses on protecting the source-indicating function of brands.",
+      "de": "Der Schutz der Herkunftsfunktion ist zentral.",
+      "it": "La funzione distintiva di origine è centrale."
     },
-    "note": { "ja": "登録により独占権が発生。" }
-  },
-  {
-    "id": "tm-0003",
-    "group": "distinctiveness",
-    "term": {
-      "ja": "識別力",
-      "de": "Unterscheidungskraft",
-      "en": "distinctiveness",
-      "it": "capacità distintiva"
+    "caution": {
+      "ja": "単なるブランド保護法と説明すると趣旨が弱くなる。",
+      "en": "Avoid overly vague explanations.",
+      "de": "Nicht zu allgemein formulieren.",
+      "it": "Evitare spiegazioni troppo generiche."
     },
-    "definition": {
-      "ja": "商品・役務を他と区別できる能力。",
-      "de": "Fähigkeit einer Marke, Waren oder Dienstleistungen zu unterscheiden.",
-      "en": "Ability of a mark to distinguish goods or services.",
-      "it": "Capacità di distinguere prodotti o servizi."
-    },
-    "note": { "ja": "登録要件の中核。" }
-  },
-  {
-    "id": "tm-0004",
-    "group": "classification",
-    "term": {
-      "ja": "商品区分",
-      "de": "Warenklasse",
-      "en": "class of goods",
-      "it": "classe di prodotti"
-    },
-    "definition": {
-      "ja": "商品・サービスを分類する制度。",
-      "de": "System zur Klassifizierung von Waren und Dienstleistungen.",
-      "en": "System for classifying goods and services.",
-      "it": "Sistema di classificazione dei prodotti e servizi."
-    },
-    "note": { "ja": "ニース分類。" }
-  },
-  {
-    "id": "tm-0005",
-    "group": "services",
-    "term": {
-      "ja": "指定役務",
-      "de": "Dienstleistungen",
-      "en": "designated services",
-      "it": "servizi designati"
-    },
-    "definition": {
-      "ja": "登録時に指定されるサービス。",
-      "de": "Dienstleistungen, die im Rahmen der Anmeldung angegeben werden.",
-      "en": "Services specified in a trademark application.",
-      "it": "Servizi indicati nella domanda di marchio."
-    },
-    "note": { "ja": "保護範囲を決める。" }
-  },
-  {
-    "id": "tm-0006",
-    "group": "infringement",
-    "term": {
-      "ja": "商標権侵害",
-      "de": "Markenverletzung",
-      "en": "trademark infringement",
-      "it": "contraffazione del marchio"
-    },
-    "definition": {
-      "ja": "商標権を侵害する行為。",
-      "de": "Verletzung der Rechte aus einer Marke.",
-      "en": "Violation of trademark rights.",
-      "it": "Violazione dei diritti di marchio."
-    },
-    "note": { "ja": "差止・損害賠償の対象。" }
+    "related_terms": ["trademark", "goodwill", "consumer protection"],
+    "articles": ["1"],
+    "tags": ["purpose", "foundation"]
   },
 
   {
-    "id": "tm-0007",
-    "group": "application",
-    "term": {
-      "ja": "出願",
-      "de": "Anmeldung",
-      "en": "application",
-      "it": "domanda"
+    "id": "tm-basic-0002",
+    "level": "basic",
+    "topic": {
+      "ja": "商標の定義",
+      "en": "What counts as a trademark",
+      "de": "Was als Marke gelten kann",
+      "it": "Che cosa può costituire un marchio"
     },
-    "definition": {
-      "ja": "商標登録を求める手続。",
-      "de": "Einreichung eines Antrags auf Markenschutz.",
-      "en": "Filing of a request for trademark protection.",
-      "it": "Deposito di una domanda di marchio."
+    "summary": {
+      "ja": "商標とは、商品やサービスを識別するための標識である。",
+      "en": "A trademark is a sign used to distinguish goods or services.",
+      "de": "Eine Marke ist ein Zeichen zur Unterscheidung von Waren oder Dienstleistungen.",
+      "it": "Un marchio è un segno per distinguere prodotti o servizi."
     },
-    "note": { "ja": "審査の開始点。" }
+    "notes": {
+      "ja": "文字、図形、記号、立体的形状、色彩、音など様々な態様が含まれる。ただし、これらが商標として保護されるためには、出所識別機能を有することが必要である。",
+      "en": "Various forms such as words, logos, shapes, colors, and sounds may qualify. However, they must be capable of distinguishing commercial origin.",
+      "de": "Wörter, Logos, Formen, Farben und Klänge können Marken sein, sofern sie Herkunft unterscheiden können.",
+      "it": "Parole, loghi, forme, colori e suoni possono essere marchi se distinguono l’origine."
+    },
+    "business_note": {
+      "ja": "ロゴや色なども対象になる点を強調すると理解されやすい。",
+      "en": "Emphasize that many types of signs can be protected.",
+      "de": "Viele Zeichenarten sind möglich.",
+      "it": "Molti tipi di segni sono proteggibili."
+    },
+    "caution": {
+      "ja": "識別力がないと登録できない。",
+      "en": "Not all signs are registrable.",
+      "de": "Nicht alle Zeichen sind eintragbar.",
+      "it": "Non tutti i segni sono registrabili."
+    },
+    "related_terms": ["sign", "distinctiveness"],
+    "articles": ["2"],
+    "tags": ["definition"]
   },
+
   {
-    "id": "tm-0008",
-    "group": "priority",
-    "term": {
+    "id": "tm-basic-0003",
+    "level": "basic",
+    "topic": {
+      "ja": "登録主義と使用",
+      "en": "Registration principle and use",
+      "de": "Registrierungsprinzip und Benutzung",
+      "it": "Principio della registrazione e uso"
+    },
+    "summary": {
+      "ja": "商標権は原則として登録によって成立する。",
+      "en": "Trademark rights arise through registration.",
+      "de": "Markenrechte entstehen durch Eintragung.",
+      "it": "I diritti nascono con la registrazione."
+    },
+    "notes": {
+      "ja": "使用しているだけでは十分な権利は得られないが、不使用取消や証拠などの場面では使用が重要となる。",
+      "en": "Use alone is insufficient for strong rights, but it still matters for non-use cancellation and evidence.",
+      "de": "Benutzung allein reicht nicht aus, bleibt aber wichtig.",
+      "it": "L’uso da solo non basta, ma resta importante."
+    },
+    "business_note": {
+      "ja": "未登録のリスクを説明する。",
+      "en": "Explain the risk of unregistered use.",
+      "de": "Risiken ohne Eintragung erklären.",
+      "it": "Spiegare il rischio senza registrazione."
+    },
+    "caution": {
+      "ja": "使用無意味と誤解させない。",
+      "en": "Use still matters.",
+      "de": "Benutzung bleibt relevant.",
+      "it": "L’uso resta rilevante."
+    },
+    "related_terms": ["registration", "use"],
+    "articles": ["18", "50"],
+    "tags": ["system"]
+  },
+
+  {
+    "id": "tm-basic-0004",
+    "level": "basic",
+    "topic": {
+      "ja": "識別力",
+      "en": "Distinctiveness",
+      "de": "Unterscheidungskraft",
+      "it": "Capacità distintiva"
+    },
+    "summary": {
+      "ja": "商標には識別力が必要である。",
+      "en": "A trademark must be distinctive.",
+      "de": "Eine Marke muss unterscheidungskräftig sein.",
+      "it": "Un marchio deve essere distintivo."
+    },
+    "notes": {
+      "ja": "一般名称や記述的表示は識別力を欠くため、原則として登録できない。",
+      "en": "Generic or descriptive marks lack distinctiveness and are usually refused.",
+      "de": "Beschreibende Begriffe sind nicht eintragbar.",
+      "it": "I termini descrittivi non sono registrabili."
+    },
+    "business_note": {
+      "ja": "ブランド名選定の重要性を説明。",
+      "en": "Explain importance of naming strategy.",
+      "de": "Namenswahl ist entscheidend.",
+      "it": "La scelta del nome è fondamentale."
+    },
+    "caution": {
+      "ja": "説明的名称は危険。",
+      "en": "Descriptive names are risky.",
+      "de": "Beschreibende Namen sind riskant.",
+      "it": "I nomi descrittivi sono rischiosi."
+    },
+    "related_terms": ["generic", "descriptive"],
+    "articles": ["3"],
+    "tags": ["requirement"]
+  },
+
+  {
+    "id": "tm-basic-0005",
+    "level": "basic",
+    "topic": {
+      "ja": "不登録事由",
+      "en": "Grounds for refusal",
+      "de": "Schutzhindernisse",
+      "it": "Motivi di rifiuto"
+    },
+    "summary": {
+      "ja": "一定の理由により登録が拒絶される。",
+      "en": "Some marks are refused based on legal grounds.",
+      "de": "Einige Marken werden abgelehnt.",
+      "it": "Alcuni marchi sono rifiutati."
+    },
+    "notes": {
+      "ja": "識別力の欠如や先行商標との抵触などが主な理由となる。",
+      "en": "Main reasons include lack of distinctiveness and conflict with earlier rights.",
+      "de": "Gründe sind fehlende Unterscheidungskraft oder Konflikte.",
+      "it": "Motivi principali sono conflitti e mancanza di distintività."
+    },
+    "business_note": {
+      "ja": "事前調査の重要性を説明。",
+      "en": "Stress importance of clearance search.",
+      "de": "Recherche ist wichtig.",
+      "it": "La ricerca è importante."
+    },
+    "caution": {
+      "ja": "事前調査なしは危険。",
+      "en": "Skipping search is risky.",
+      "de": "Ohne Recherche riskant.",
+      "it": "Rischio senza ricerca."
+    },
+    "related_terms": ["refusal"],
+    "articles": ["3", "4"],
+    "tags": ["exam"]
+  },
+
+  {
+    "id": "tm-basic-0006",
+    "level": "basic",
+    "topic": {
       "ja": "先願主義",
+      "en": "First-to-file",
       "de": "Prioritätsprinzip",
-      "en": "first-to-file system",
-      "it": "principio del primo deposito"
-    },
-    "definition": {
-      "ja": "先に出願した者が優先される原則。",
-      "de": "Prinzip, nach dem die zuerst angemeldete Marke Vorrang hat.",
-      "en": "Principle that priority is given to the first filer.",
-      "it": "Principio secondo cui prevale chi deposita per primo."
-    },
-    "note": { "ja": "多くの国で採用。" }
-  },
-  {
-    "id": "tm-0009",
-    "group": "similarity",
-    "term": {
-      "ja": "類似商標",
-      "de": "ähnliche Marke",
-      "en": "similar trademark",
-      "it": "marchio simile"
-    },
-    "definition": {
-      "ja": "他の商標と類似する商標。",
-      "de": "Marke, die einer anderen ähnlich ist.",
-      "en": "Trademark similar to another.",
-      "it": "Marchio simile a un altro."
-    },
-    "note": { "ja": "混同判断に関係。" }
-  },
-  {
-    "id": "tm-0010",
-    "group": "nonuse",
-    "term": {
-      "ja": "不使用取消",
-      "de": "Verfall wegen Nichtbenutzung",
-      "en": "revocation for non-use",
-      "it": "decadenza per non uso"
-    },
-    "definition": {
-      "ja": "使用されていない商標の取消。",
-      "de": "Löschung einer Marke wegen fehlender Benutzung.",
-      "en": "Cancellation due to lack of use.",
-      "it": "Decadenza per mancato uso del marchio."
-    },
-    "note": { "ja": "一定期間未使用が条件。" }
-  },
-  {
-    "id": "tm-0011",
-    "group": "wellknown",
-    "term": {
-      "ja": "周知商標",
-      "de": "bekannte Marke",
-      "en": "well-known mark",
-      "it": "marchio notorio"
-    },
-    "definition": {
-      "ja": "広く認識されている商標。",
-      "de": "Marke, die einem breiten Publikum bekannt ist.",
-      "en": "Trademark widely known among consumers.",
-      "it": "Marchio conosciuto dal pubblico."
-    },
-    "note": { "ja": "保護が拡張される。" }
-  },
-  {
-    "id": "tm-0012",
-    "group": "famous",
-    "term": {
-      "ja": "著名商標",
-      "de": "berühmte Marke",
-      "en": "famous mark",
-      "it": "marchio rinomato"
-    },
-    "definition": {
-      "ja": "極めて高い知名度を持つ商標。",
-      "de": "Marke mit sehr hoher Bekanntheit.",
-      "en": "Highly recognized trademark.",
-      "it": "Marchio molto noto."
-    },
-    "note": { "ja": "希釈化保護の対象。" }
-  },
-  {
-    "id": "tm-0013",
-    "group": "descriptive",
-    "term": {
-      "ja": "記述的商標",
-      "de": "beschreibende Marke",
-      "en": "descriptive mark",
-      "it": "marchio descrittivo"
-    },
-    "definition": {
-      "ja": "商品の特徴を直接示す商標。",
-      "de": "Marke, die Eigenschaften der Ware beschreibt.",
-      "en": "Mark describing characteristics of goods.",
-      "it": "Marchio che descrive caratteristiche del prodotto."
-    },
-    "note": { "ja": "原則登録不可。" }
-  },
-  {
-    "id": "tm-0014",
-    "group": "distinctiveness",
-    "term": {
-      "ja": "識別力欠如",
-      "de": "fehlende Unterscheidungskraft",
-      "en": "lack of distinctiveness",
-      "it": "assenza di capacità distintiva"
-    },
-    "definition": {
-      "ja": "識別力を欠く状態。",
-      "de": "Fehlen der Unterscheidungskraft.",
-      "en": "Absence of distinctiveness.",
-      "it": "Mancanza di capacità distintiva."
-    },
-    "note": { "ja": "拒絶理由。" }
-  },
-  {
-    "id": "tm-0015",
-    "group": "goods",
-    "term": {
-      "ja": "指定商品",
-      "de": "Waren",
-      "en": "designated goods",
-      "it": "prodotti designati"
-    },
-    "definition": {
-      "ja": "登録対象の商品。",
-      "de": "Waren, die in der Anmeldung angegeben sind.",
-      "en": "Goods specified in the application.",
-      "it": "Prodotti indicati nella domanda."
-    },
-    "note": { "ja": "保護範囲に影響。" }
-  },
-  {
-    "id": "tm-0016",
-    "group": "renewal",
-    "term": {
-      "ja": "更新登録",
-      "de": "Verlängerung",
-      "en": "renewal",
-      "it": "rinnovo"
-    },
-    "definition": {
-      "ja": "権利期間の延長。",
-      "de": "Verlängerung der Schutzdauer.",
-      "en": "Extension of protection period.",
-      "it": "Estensione della durata del marchio."
-    },
-    "note": { "ja": "通常10年ごと。" }
-  },
-  {
-    "id": "tm-0017",
-    "group": "license",
-    "term": {
-      "ja": "ライセンス",
-      "de": "Lizenz",
-      "en": "license",
-      "it": "licenza"
-    },
-    "definition": {
-      "ja": "使用を許諾する契約。",
-      "de": "Vertrag über die Nutzung einer Marke.",
-      "en": "Agreement permitting use of a trademark.",
-      "it": "Contratto che autorizza l'uso del marchio."
-    },
-    "note": { "ja": "使用権設定。" }
-  },
-  {
-    "id": "tm-0018",
-    "group": "assignment",
-    "term": {
-      "ja": "譲渡",
-      "de": "Übertragung",
-      "en": "assignment",
-      "it": "cessione"
-    },
-    "definition": {
-      "ja": "権利の移転。",
-      "de": "Übertragung von Markenrechten.",
-      "en": "Transfer of trademark rights.",
-      "it": "Trasferimento dei diritti di marchio."
-    },
-    "note": { "ja": "契約による。" }
-  },
-  {
-    "id": "tm-0019",
-    "group": "opposition",
-    "term": {
-      "ja": "異議申立て",
-      "de": "Widerspruch",
-      "en": "opposition",
-      "it": "opposizione"
-    },
-    "definition": {
-      "ja": "登録に対する異議手続。",
-      "de": "Verfahren zum Widerspruch gegen eine Marke.",
-      "en": "Procedure to challenge a registration.",
-      "it": "Procedura di opposizione alla registrazione."
-    },
-    "note": { "ja": "登録後一定期間内。" }
-  },
-  {
-    "id": "tm-0020",
-    "group": "confusion",
-    "term": {
-      "ja": "混同のおそれ",
-      "de": "Verwechslungsgefahr",
-      "en": "likelihood of confusion",
-      "it": "rischio di confusione"
-    },
-    "definition": {
-      "ja": "需要者が誤認する可能性。",
-      "de": "Gefahr, dass Verbraucher Marken verwechseln.",
-      "en": "Likelihood that consumers are confused.",
-      "it": "Possibilità che i consumatori si confondano."
-    },
-    "note": { "ja": "侵害判断の中心。" }
-  },
-  {
-    "id": "tm-0021",
-    "group": "priority",
-    "term": {
-      "ja": "先願商標",
-      "de": "prioritätsältere Marke",
-      "en": "earlier-filed trademark",
-      "it": "marchio depositato anteriormente"
-    },
-    "definition": {
-      "ja": "後の出願より先に出願された商標。",
-      "de": "Marke, die vor einer anderen Marke angemeldet wurde.",
-      "en": "A trademark filed before another trademark.",
-      "it": "Marchio depositato prima di un altro marchio."
-    },
-    "note": {
-      "ja": "先願主義のもとで優先関係の基準となる。"
-    }
-  },
-  {
-    "id": "tm-0022",
-    "group": "priority",
-    "term": {
-      "ja": "後願商標",
-      "de": "prioritätsjüngere Marke",
-      "en": "later-filed trademark",
-      "it": "marchio depositato successivamente"
-    },
-    "definition": {
-      "ja": "他の商標より後に出願された商標。",
-      "de": "Marke, die nach einer anderen Marke angemeldet wurde.",
-      "en": "A trademark filed after another trademark.",
-      "it": "Marchio depositato dopo un altro marchio."
-    },
-    "note": {
-      "ja": "先願商標との抵触が問題となりうる。"
-    }
-  },
-  {
-    "id": "tm-0023",
-    "group": "refusal",
-    "term": {
-      "ja": "絶対的拒絶理由",
-      "de": "absolute Schutzhindernisse",
-      "en": "absolute grounds for refusal",
-      "it": "motivi assoluti di rifiuto"
-    },
-    "definition": {
-      "ja": "商標自体の性質などに基づく拒絶理由。",
-      "de": "Zurückweisungsgründe, die sich aus der Marke selbst ergeben.",
-      "en": "Grounds for refusal based on the nature of the mark itself.",
-      "it": "Motivi di rifiuto basati sulla natura stessa del marchio."
-    },
-    "note": {
-      "ja": "識別力欠如や記述性などが典型。"
-    }
-  },
-  {
-    "id": "tm-0024",
-    "group": "refusal",
-    "term": {
-      "ja": "相対的拒絶理由",
-      "de": "relative Schutzhindernisse",
-      "en": "relative grounds for refusal",
-      "it": "motivi relativi di rifiuto"
-    },
-    "definition": {
-      "ja": "先行権利との抵触などに基づく拒絶理由。",
-      "de": "Zurückweisungsgründe wegen Konflikts mit älteren Rechten.",
-      "en": "Grounds for refusal based on conflicts with earlier rights.",
-      "it": "Motivi di rifiuto basati sul conflitto con diritti anteriori."
-    },
-    "note": {
-      "ja": "先願商標や著名商標との関係で問題になりやすい。"
-    }
-  },
-  {
-    "id": "tm-0025",
-    "group": "publication",
-    "term": {
-      "ja": "出願公開",
-      "de": "Offenlegung der Anmeldung",
-      "en": "publication of the application",
-      "it": "pubblicazione della domanda"
-    },
-    "definition": {
-      "ja": "出願内容が公に示されること。",
-      "de": "Öffentliche Bekanntmachung des Inhalts einer Anmeldung.",
-      "en": "Public disclosure of the contents of an application.",
-      "it": "Divulgazione pubblica del contenuto della domanda."
-    },
-    "note": {
-      "ja": "公開の時点や方式は制度ごとの差に注意。"
-    }
-  },
-  {
-    "id": "tm-0026",
-    "group": "office-action",
-    "term": {
-      "ja": "拒絶理由応答",
-      "de": "Erwiderung auf einen Beanstandungsbescheid",
-      "en": "response to an office action",
-      "it": "risposta all'azione dell'ufficio"
-    },
-    "definition": {
-      "ja": "拒絶理由通知に対して行う応答。",
-      "de": "Antwort auf einen Bescheid mit Beanstandungen oder Zurückweisungsgründen.",
-      "en": "A response submitted to address an office action.",
-      "it": "Risposta presentata per superare i rilievi dell'ufficio."
-    },
-    "note": {
-      "ja": "意見書や補正書の提出を含むことが多い。"
-    }
-  },
-  {
-    "id": "tm-0027",
-    "group": "deadline",
-    "term": {
-      "ja": "応答期間の期日",
-      "de": "Fristende für die Erwiderung",
-      "en": "response deadline",
-      "it": "termine per la risposta"
-    },
-    "definition": {
-      "ja": "拒絶理由通知などへの応答期限。",
-      "de": "Ende der Frist zur Einreichung einer Erwiderung.",
-      "en": "The deadline for filing a response.",
-      "it": "Scadenza entro cui deve essere presentata la risposta."
-    },
-    "note": {
-      "ja": "徒過すると不利益が生じうる。"
-    }
-  },
-  {
-    "id": "tm-0028",
-    "group": "deadline",
-    "term": {
-      "ja": "応答期間の延長請求",
-      "de": "Antrag auf Fristverlängerung",
-      "en": "request for extension of time to respond",
-      "it": "richiesta di proroga del termine di risposta"
-    },
-    "definition": {
-      "ja": "応答期限の延長を求める申請。",
-      "de": "Antrag auf Verlängerung der Frist zur Erwiderung.",
-      "en": "A request to extend the response period.",
-      "it": "Domanda volta a prorogare il termine per rispondere."
-    },
-    "note": {
-      "ja": "認められる条件や回数は制度ごとに異なる。"
-    }
-  },
-  {
-    "id": "tm-0029",
-    "group": "office-action",
-    "term": {
-      "ja": "意見書",
-      "de": "Stellungnahme",
-      "en": "written opinion",
-      "it": "memoria di osservazioni"
-    },
-    "definition": {
-      "ja": "審査官等に対し意見や反論を述べる書面。",
-      "de": "Schriftliche Äußerung mit Argumenten gegenüber der Behörde.",
-      "en": "A written submission presenting arguments or explanations.",
-      "it": "Atto scritto con osservazioni e argomentazioni."
-    },
-    "note": {
-      "ja": "拒絶理由通知への応答として提出されることが多い。"
-    }
-  },
-  {
-    "id": "tm-0030",
-    "group": "office-action",
-    "term": {
-      "ja": "補正書",
-      "de": "Änderungsantrag",
-      "en": "amendment",
-      "it": "atto di modifica"
-    },
-    "definition": {
-      "ja": "出願内容を補正するための書面。",
-      "de": "Schriftstück zur Änderung des Inhalts der Anmeldung.",
-      "en": "A filing used to amend the content of an application.",
-      "it": "Atto utilizzato per modificare il contenuto della domanda."
-    },
-    "note": {
-      "ja": "補正可能範囲には制限がある。"
-    }
-  },
-  {
-    "id": "tm-0031",
-    "group": "application",
-    "term": {
-      "ja": "出願分割",
-      "de": "Teilung der Anmeldung",
-      "en": "division of the application",
-      "it": "divisione della domanda"
-    },
-    "definition": {
-      "ja": "一つの出願を複数の出願に分けること。",
-      "de": "Aufspaltung einer Anmeldung in mehrere Anmeldungen.",
-      "en": "The splitting of one application into multiple applications.",
-      "it": "Suddivisione di una domanda in più domande."
-    },
-    "note": {
-      "ja": "商品・役務や争点の整理のために用いられる。"
-    }
-  },
-  {
-    "id": "tm-0032",
-    "group": "trial-invalidity",
-    "term": {
-      "ja": "商標登録無効審判",
-      "de": "Nichtigkeitsverfahren gegen eine Markeneintragung",
-      "en": "trial for invalidation of trademark registration",
-      "it": "procedimento di nullità della registrazione del marchio"
-    },
-    "definition": {
-      "ja": "登録商標の有効性を争い、その無効を求める審判。",
-      "de": "Verfahren, mit dem die Ungültigkeit einer eingetragenen Marke geltend gemacht wird.",
-      "en": "A proceeding seeking invalidation of a registered trademark.",
-      "it": "Procedimento volto a far dichiarare nulla una registrazione di marchio."
-    },
-    "note": {
-      "ja": "登録時の瑕疵を理由に争う。"
-    }
-  },
-  {
-    "id": "tm-0033",
-    "group": "trial-revocation",
-    "term": {
-      "ja": "商標登録取消審判",
-      "de": "Löschungsverfahren gegen eine Marke",
-      "en": "trial for revocation of trademark registration",
-      "it": "procedimento di decadenza o revoca del marchio"
-    },
-    "definition": {
-      "ja": "登録商標の取消しを求める審判。",
-      "de": "Verfahren, mit dem die Löschung oder der Verfall einer Marke beantragt wird.",
-      "en": "A proceeding seeking revocation or cancellation of a registered trademark.",
-      "it": "Procedimento volto a ottenere la decadenza o revoca di un marchio registrato."
-    },
-    "note": {
-      "ja": "不使用や不適法な使用などが問題となりうる。"
-    }
-  },
-  {
-    "id": "tm-0034",
-    "group": "owner",
-    "term": {
-      "ja": "商標権者",
-      "de": "Markeninhaber",
-      "en": "trademark owner",
-      "it": "titolare del marchio"
-    },
-    "definition": {
-      "ja": "商標権を有する者。",
-      "de": "Person oder Unternehmen, dem das Markenrecht zusteht.",
-      "en": "The person or entity that owns the trademark right.",
-      "it": "Soggetto titolare del diritto di marchio."
-    },
-    "note": {
-      "ja": "ライセンス設定や譲渡の主体となる。"
-    }
-  },
-  {
-    "id": "tm-0035",
-    "group": "license",
-    "term": {
-      "ja": "専用使用権者",
-      "de": "ausschließlicher Lizenznehmer",
-      "en": "exclusive licensee",
-      "it": "licenziatario esclusivo"
-    },
-    "definition": {
-      "ja": "専用使用権の設定を受けた者。",
-      "de": "Person oder Unternehmen, dem eine ausschließliche Lizenz eingeräumt wurde.",
-      "en": "A person or entity granted an exclusive license.",
-      "it": "Soggetto al quale è stata concessa una licenza esclusiva."
-    },
-    "note": {
-      "ja": "一定範囲で排他的な使用が認められる。"
-    }
-  },
-  {
-    "id": "tm-0036",
-    "group": "license",
-    "term": {
-      "ja": "独占的通常使用権者",
-      "de": "exklusiver einfacher Lizenznehmer",
-      "en": "sole licensee",
-      "it": "licenziatario unico"
-    },
-    "definition": {
-      "ja": "通常使用権者のうち、実質的に独占的使用が認められた者。",
-      "de": "Einfacher Lizenznehmer mit faktisch exklusiver Nutzungsbefugnis.",
-      "en": "A non-proprietary licensee granted sole use in practice.",
-      "it": "Licenziatario non titolare di un diritto reale, ma con uso esclusivo di fatto."
-    },
-    "note": {
-      "ja": "専用使用権とは法的性質が異なる。"
-    }
-  },
-  {
-    "id": "tm-0037",
-    "group": "license",
-    "term": {
-      "ja": "通常使用権者",
-      "de": "einfacher Lizenznehmer",
-      "en": "non-exclusive licensee",
-      "it": "licenziatario non esclusivo"
-    },
-    "definition": {
-      "ja": "通常使用権の設定を受けた者。",
-      "de": "Person oder Unternehmen mit einer einfachen Lizenz zur Nutzung der Marke.",
-      "en": "A person or entity granted a non-exclusive license.",
-      "it": "Soggetto cui è concessa una licenza non esclusiva."
-    },
-    "note": {
-      "ja": "同一商標について複数存在しうる。"
-    }
-  },
-  {
-    "id": "tm-0038",
-    "group": "madrid",
-    "term": {
-      "ja": "基礎商標",
-      "de": "Basismarke",
-      "en": "basic mark",
-      "it": "marchio di base"
-    },
-    "definition": {
-      "ja": "国際商標登録出願の基礎となる国内出願または国内登録商標。",
-      "de": "Nationale Anmeldung oder Eintragung, auf der eine internationale Markenanmeldung beruht.",
-      "en": "The national application or registration on which an international trademark application is based.",
-      "it": "Domanda o registrazione nazionale su cui si basa una domanda internazionale di marchio."
-    },
-    "note": {
-      "ja": "マドリッド制度の理解に重要。"
-    }
-  },
-  {
-    "id": "tm-0039",
-    "group": "trial-invalidity",
-    "term": {
-      "ja": "無効審判の除斥期間",
-      "de": "Ausschlussfrist für das Nichtigkeitsverfahren",
-      "en": "exclusion period for invalidation trial",
-      "it": "termine di decadenza per il procedimento di nullità"
-    },
-    "definition": {
-      "ja": "無効審判を請求できる期間の制限。",
-      "de": "Frist, innerhalb derer ein Nichtigkeitsverfahren eingeleitet werden kann.",
-      "en": "Time limit within which an invalidation trial may be requested.",
-      "it": "Periodo entro cui può essere richiesta la nullità del marchio."
-    },
-    "note": { "ja": "経過後は請求できない場合がある。" }
-  },
-  {
-    "id": "tm-0040",
-    "group": "examination",
-    "term": {
-      "ja": "商標審査基準",
-      "de": "Markenprüfungsrichtlinien",
-      "en": "trademark examination guidelines",
-      "it": "linee guida per l'esame dei marchi"
-    },
-    "definition": {
-      "ja": "審査官が審査に用いる基準。",
-      "de": "Richtlinien für die Prüfung von Markenanmeldungen.",
-      "en": "Guidelines used by examiners in trademark examination.",
-      "it": "Linee guida utilizzate dagli esaminatori per l'esame dei marchi."
-    },
-    "note": { "ja": "実務上重要な解釈指針。" }
-  },
-  {
-    "id": "tm-0041",
-    "group": "examination",
-    "term": {
-      "ja": "商標審査官",
-      "de": "Markenprüfer",
-      "en": "trademark examiner",
-      "it": "esaminatore di marchi"
-    },
-    "definition": {
-      "ja": "商標出願を審査する職員。",
-      "de": "Beamter, der Markenanmeldungen prüft.",
-      "en": "Official who examines trademark applications.",
-      "it": "Funzionario che esamina le domande di marchio."
-    },
-    "note": { "ja": "登録可否を判断する。" }
-  },
-  {
-    "id": "tm-0042",
-    "group": "trial",
-    "term": {
-      "ja": "商標審判官",
-      "de": "Markenrichter",
-      "en": "trial examiner (trademark)",
-      "it": "giudice amministrativo del marchio"
-    },
-    "definition": {
-      "ja": "審判手続を担当する職員。",
-      "de": "Person, die im Markenverfahren als Entscheider tätig ist.",
-      "en": "Official who conducts trademark trial proceedings.",
-      "it": "Funzionario che decide nei procedimenti di ricorso."
-    },
-    "note": { "ja": "審査官とは役割が異なる。" }
-  },
-  {
-    "id": "tm-0043",
-    "group": "decision",
-    "term": {
-      "ja": "登録査定",
-      "de": "Eintragungsbeschluss",
-      "en": "decision to register",
-      "it": "decisione di registrazione"
-    },
-    "definition": {
-      "ja": "商標登録を認める判断。",
-      "de": "Entscheidung, eine Marke einzutragen.",
-      "en": "Decision to allow trademark registration.",
-      "it": "Decisione che consente la registrazione del marchio."
-    },
-    "note": { "ja": "登録手続に進む。" }
-  },
-  {
-    "id": "tm-0044",
-    "group": "decision",
-    "term": {
-      "ja": "拒絶査定",
-      "de": "Zurückweisungsbeschluss",
-      "en": "decision of refusal",
-      "it": "decisione di rifiuto"
-    },
-    "definition": {
-      "ja": "登録を認めない判断。",
-      "de": "Entscheidung, eine Anmeldung zurückzuweisen.",
-      "en": "Decision refusing registration.",
-      "it": "Decisione che rifiuta la registrazione."
-    },
-    "note": { "ja": "不服申立てが可能。" }
-  },
-  {
-    "id": "tm-0045",
-    "group": "appeal",
-    "term": {
-      "ja": "拒絶査定不服審判",
-      "de": "Beschwerde gegen die Zurückweisung",
-      "en": "appeal against refusal decision",
-      "it": "ricorso contro il rifiuto"
-    },
-    "definition": {
-      "ja": "拒絶査定に対する不服申立て。",
-      "de": "Rechtsmittel gegen eine Zurückweisung.",
-      "en": "Appeal filed against a refusal decision.",
-      "it": "Ricorso presentato contro una decisione di rifiuto."
-    },
-    "note": { "ja": "審判で再審理される。" }
-  },
-  {
-    "id": "tm-0046",
-    "group": "trial",
-    "term": {
-      "ja": "拒絶審決",
-      "de": "ablehnende Entscheidung im Beschwerdeverfahren",
-      "en": "trial decision of refusal",
-      "it": "decisione di rigetto in sede di ricorso"
-    },
-    "definition": {
-      "ja": "審判における拒絶の最終判断。",
-      "de": "Endentscheidung, die die Zurückweisung bestätigt.",
-      "en": "Final decision confirming refusal.",
-      "it": "Decisione finale che conferma il rifiuto."
-    },
-    "note": { "ja": "さらに訴訟が可能。" }
-  },
-  {
-    "id": "tm-0047",
-    "group": "litigation",
-    "term": {
-      "ja": "拒絶審決取消訴訟",
-      "de": "Klage gegen die ablehnende Entscheidung",
-      "en": "action for revocation of trial decision",
-      "it": "azione contro la decisione di rigetto"
-    },
-    "definition": {
-      "ja": "拒絶審決の取消しを求める訴訟。",
-      "de": "Gerichtsverfahren zur Aufhebung einer ablehnenden Entscheidung.",
-      "en": "Court action to overturn a refusal decision.",
-      "it": "Procedimento giudiziario per annullare una decisione di rigetto."
-    },
-    "note": { "ja": "知財高裁が管轄。" }
-  },
-  {
-    "id": "tm-0048",
-    "group": "court",
-    "term": {
-      "ja": "知財高裁",
-      "de": "IP-Hochgericht",
-      "en": "Intellectual Property High Court",
-      "it": "Alta Corte della Proprietà Intellettuale"
-    },
-    "definition": {
-      "ja": "知的財産事件を専門に扱う高等裁判所。",
-      "de": "Spezialgericht für geistiges Eigentum.",
-      "en": "Specialized court for intellectual property cases.",
-      "it": "Tribunale specializzato in proprietà intellettuale."
-    },
-    "note": { "ja": "審決取消訴訟を扱う。" }
-  },
-  {
-    "id": "tm-0049",
-    "group": "court",
-    "term": {
-      "ja": "最高裁",
-      "de": "Oberster Gerichtshof",
-      "en": "Supreme Court",
-      "it": "Corte Suprema"
-    },
-    "definition": {
-      "ja": "日本の最上級裁判所。",
-      "de": "Höchstes Gericht eines Landes.",
-      "en": "Highest court in a judicial system.",
-      "it": "Massima autorità giudiziaria."
-    },
-    "note": { "ja": "最終審を担当。" }
-  },
-  {
-    "id": "tm-0050",
-    "group": "concept",
-    "term": {
-      "ja": "需要者・取引者",
-      "de": "Verbraucher und Verkehrskreise",
-      "en": "consumers and traders",
-      "it": "consumatori e operatori commerciali"
-    },
-    "definition": {
-      "ja": "商標の認識主体となる人々。",
-      "de": "Personenkreise, die mit der Marke in Berührung kommen.",
-      "en": "Persons who perceive and interact with the trademark.",
-      "it": "Soggetti che entrano in contatto con il marchio."
-    },
-    "note": { "ja": "混同判断の基準となる。" }
-  },
-  {
-    "id": "tm-0051",
-    "group": "mark-type",
-    "term": {
-      "ja": "文字商標",
-      "de": "Wortmarke",
-      "en": "word mark",
-      "it": "marchio denominativo"
-    },
-    "definition": {
-      "ja": "文字のみからなる商標。",
-      "de": "Marke, die ausschließlich aus Wörtern oder Buchstaben besteht.",
-      "en": "A mark consisting only of words or letters.",
-      "it": "Marchio costituito soltanto da parole o lettere."
-    },
-    "note": { "ja": "最も基本的な商標類型の一つ。" }
-  },
-  {
-    "id": "tm-0052",
-    "group": "mark-type",
-    "term": {
-      "ja": "図形商標",
-      "de": "Bildmarke",
-      "en": "figurative mark",
-      "it": "marchio figurativo"
-    },
-    "definition": {
-      "ja": "図形やデザインからなる商標。",
-      "de": "Marke, die aus grafischen Elementen besteht.",
-      "en": "A mark consisting of graphic elements or designs.",
-      "it": "Marchio costituito da elementi grafici o disegni."
-    },
-    "note": { "ja": "ロゴなどが典型例。" }
-  },
-  {
-    "id": "tm-0053",
-    "group": "mark-type",
-    "term": {
-      "ja": "結合商標",
-      "de": "kombinierte Marke",
-      "en": "combined mark",
-      "it": "marchio combinato"
-    },
-    "definition": {
-      "ja": "文字と図形など複数要素が結合した商標。",
-      "de": "Marke, die aus mehreren kombinierten Elementen besteht.",
-      "en": "A mark composed of combined elements such as words and figures.",
-      "it": "Marchio composto da più elementi combinati, come parole e figure."
-    },
-    "note": { "ja": "文字とロゴの組合せが典型。" }
-  },
-  {
-    "id": "tm-0054",
-    "group": "mark-type",
-    "term": {
-      "ja": "立体商標",
-      "de": "dreidimensionale Marke",
-      "en": "three-dimensional mark",
-      "it": "marchio tridimensionale"
-    },
-    "definition": {
-      "ja": "立体的形状からなる商標。",
-      "de": "Marke, die aus einer dreidimensionalen Form besteht.",
-      "en": "A mark consisting of a three-dimensional shape.",
-      "it": "Marchio costituito da una forma tridimensionale."
-    },
-    "note": { "ja": "容器や商品の形状が問題になる。" }
-  },
-  {
-    "id": "tm-0055",
-    "group": "mark-type",
-    "term": {
-      "ja": "位置商標",
-      "de": "Positionsmarke",
-      "en": "position mark",
-      "it": "marchio di posizione"
-    },
-    "definition": {
-      "ja": "標章を商品等の特定位置に付すことで識別力を持つ商標。",
-      "de": "Marke, deren Schutz sich auf die bestimmte Position eines Zeichens auf der Ware bezieht.",
-      "en": "A mark protected by the specific position of a sign on goods or other items.",
-      "it": "Marchio caratterizzato dalla posizione specifica del segno sul prodotto."
-    },
-    "note": { "ja": "新しいタイプの商標の一つ。" }
-  },
-  {
-    "id": "tm-0056",
-    "group": "mark-type",
-    "term": {
-      "ja": "音商標",
-      "de": "Klangmarke",
-      "en": "sound mark",
-      "it": "marchio sonoro"
-    },
-    "definition": {
-      "ja": "音によって識別される商標。",
-      "de": "Marke, die durch einen Klang oder Ton gekennzeichnet ist.",
-      "en": "A mark identified by a sound.",
-      "it": "Marchio identificato da un suono."
-    },
-    "note": { "ja": "メロディーや効果音が問題となる。" }
-  },
-  {
-    "id": "tm-0057",
-    "group": "mark-type",
-    "term": {
-      "ja": "色彩のみからなる商標",
-      "de": "Farbmarke als solche",
-      "en": "color mark consisting solely of colors",
-      "it": "marchio costituito esclusivamente da colori"
-    },
-    "definition": {
-      "ja": "色や色の組合せそのものからなる商標。",
-      "de": "Marke, die ausschließlich aus einer Farbe oder Farbkombination als solcher besteht.",
-      "en": "A mark consisting solely of a color or combination of colors as such.",
-      "it": "Marchio costituito esclusivamente da un colore o da una combinazione di colori."
-    },
-    "note": { "ja": "JPOの制度説明に沿った見出し。" }
-  },
-  {
-    "id": "tm-0058",
-    "group": "mark-type",
-    "term": {
-      "ja": "ホログラム商標",
-      "de": "Hologrammmarke",
-      "en": "hologram mark",
-      "it": "marchio olografico"
-    },
-    "definition": {
-      "ja": "ホログラムによって表示される商標。",
-      "de": "Marke, die durch holografische Darstellung gekennzeichnet ist.",
-      "en": "A mark represented by a hologram.",
-      "it": "Marchio rappresentato mediante ologramma."
-    },
-    "note": { "ja": "新しいタイプの商標の一つ。" }
-  },
-  {
-    "id": "tm-0059",
-    "group": "mark-type",
-    "term": {
-      "ja": "動き商標",
-      "de": "Bewegungsmarke",
-      "en": "motion mark",
-      "it": "marchio di movimento"
-    },
-    "definition": {
-      "ja": "動きや変化の過程によって識別される商標。",
-      "de": "Marke, die durch eine Bewegung oder Veränderung dargestellt wird.",
-      "en": "A mark consisting of a movement or change in position.",
-      "it": "Marchio costituito da un movimento o da una variazione."
-    },
-    "note": { "ja": "新しいタイプの商標の一つ。" }
-  },
-  {
-    "id": "tm-0060",
-    "group": "mark-type",
-    "term": {
-      "ja": "匂い商標",
-      "de": "Geruchsmarke",
-      "en": "smell mark",
-      "it": "marchio olfattivo"
-    },
-    "definition": {
-      "ja": "匂いによって識別される商標という考え方。",
-      "de": "Konzept einer Marke, die durch einen Geruch identifiziert wird.",
-      "en": "The concept of a mark identified by a smell.",
-      "it": "Concetto di marchio identificato da un odore."
-    },
-    "note": { "ja": "学習用見出し。制度上の扱いは国・時期により注意。" }
-  },
-  {
-    "id": "tm-0061",
-    "group": "special-system",
-    "term": {
-      "ja": "防護標章",
-      "de": "Defensivmarke",
-      "en": "defensive mark",
-      "it": "marchio difensivo"
-    },
-    "definition": {
-      "ja": "著名商標について、非類似商品・役務にも保護を広げるための標章制度。",
-      "de": "System zum erweiterten Schutz bekannter Marken auch für nicht ähnliche Waren oder Dienstleistungen.",
-      "en": "A system extending protection of a well-known mark to dissimilar goods or services.",
-      "it": "Sistema che estende la tutela di un marchio noto anche a prodotti o servizi non simili."
-    },
-    "note": { "ja": "著名性が前提となる。" }
-  },
-  {
-    "id": "tm-0062",
-    "group": "special-system",
-    "term": {
-      "ja": "団体商標",
-      "de": "Kollektivmarke",
-      "en": "collective mark",
-      "it": "marchio collettivo"
-    },
-    "definition": {
-      "ja": "団体がその構成員に使用させるための商標。",
-      "de": "Marke, die von einer Vereinigung für ihre Mitglieder genutzt wird.",
-      "en": "A mark used by members of an association or collective body.",
-      "it": "Marchio utilizzato dai membri di un'associazione o ente collettivo."
-    },
-    "note": { "ja": "団体商標登録制度に対応。" }
-  },
-  {
-    "id": "tm-0063",
-    "group": "special-system",
-    "term": {
-      "ja": "地域団体商標",
-      "de": "regionale Kollektivmarke",
-      "en": "regional collective trademark",
-      "it": "marchio collettivo regionale"
-    },
-    "definition": {
-      "ja": "地域名と商品・役務名などを組み合わせた団体商標。",
-      "de": "Kollektivmarke, die einen geografischen Namen mit Waren oder Dienstleistungen verbindet.",
-      "en": "A collective trademark combining a regional name with goods or services.",
-      "it": "Marchio collettivo che combina un nome geografico con prodotti o servizi."
-    },
-    "note": { "ja": "地域ブランド保護との関係で重要。" }
-  },
-  {
-    "id": "tm-0064",
-    "group": "customs",
-    "term": {
-      "ja": "模倣品輸入の税関差止",
-      "de": "zollrechtliche Aussetzung der Einfuhr von Nachahmungen",
-      "en": "customs suspension of importation of counterfeit goods",
-      "it": "blocco doganale dell'importazione di merci contraffatte"
-    },
-    "definition": {
-      "ja": "模倣品などについて税関で輸入を差し止める措置。",
-      "de": "Maßnahme der Zollbehörden zur Aussetzung der Einfuhr nachgeahmter Waren.",
-      "en": "A customs measure suspending the import of counterfeit or infringing goods.",
-      "it": "Misura doganale che blocca l'importazione di merci contraffatte o in violazione."
-    },
-    "note": { "ja": "税関の認定手続・差止申立制度と関係する。" }
-  },
-  {
-    "id": "tm-0065",
-    "group": "international-trade",
-    "term": {
-      "ja": "並行輸入",
-      "de": "Parallelimport",
-      "en": "parallel import",
-      "it": "importazione parallela"
-    },
-    "definition": {
-      "ja": "権利者の流通ルートとは別に真正商品が輸入されること。",
-      "de": "Import echter Waren außerhalb des offiziellen Vertriebswegs des Rechtsinhabers.",
-      "en": "Importation of genuine goods outside the trademark owner’s official distribution channel.",
-      "it": "Importazione di prodotti autentici al di fuori del canale ufficiale del titolare."
-    },
-    "note": { "ja": "適法性判断は要件次第で変わる。" }
-  },
-  {
-    "id": "tm-0066",
-    "group": "similarity",
-    "term": {
-      "ja": "商標の類似度",
-      "de": "Ähnlichkeitsgrad von Marken",
-      "en": "degree of similarity between trademarks",
-      "it": "grado di somiglianza tra marchi"
-    },
-    "definition": {
-      "ja": "二つの商標がどの程度似ているかの評価。",
-      "de": "Bewertung, wie ähnlich sich zwei Marken sind.",
-      "en": "Assessment of how similar two trademarks are.",
-      "it": "Valutazione del grado di somiglianza tra due marchi."
-    },
-    "note": { "ja": "混同のおそれ判断の前提。" }
-  },
-  {
-    "id": "tm-0067",
-    "group": "wellknown",
-    "term": {
-      "ja": "商標の周知性",
-      "de": "Bekanntheit einer Marke",
-      "en": "distinctiveness / recognition of a mark",
-      "it": "notorietà del marchio"
-    },
-    "definition": {
-      "ja": "需要者の間でどの程度知られているかという性質。",
-      "de": "Grad der Bekanntheit einer Marke im relevanten Verkehrskreis.",
-      "en": "Degree to which a trademark is recognized among relevant consumers.",
-      "it": "Grado di conoscenza del marchio tra il pubblico rilevante."
-    },
-    "note": { "ja": "著名性・周知性は保護範囲に影響。" }
-  },
-  {
-    "id": "tm-0068",
-    "group": "similarity",
-    "term": {
-      "ja": "外観・称呼・観念・取引事情",
-      "de": "visuelle, klangliche, begriffliche Ähnlichkeit und Marktumstände",
-      "en": "appearance, pronunciation, concept, and trade circumstances",
-      "it": "aspetto, pronuncia, concetto e circostanze di mercato"
-    },
-    "definition": {
-      "ja": "商標の類否判断に用いられる主要な評価要素。",
-      "de": "Hauptkriterien zur Beurteilung der Markenähnlichkeit.",
-      "en": "Key factors used to assess trademark similarity.",
-      "it": "Fattori principali per valutare la somiglianza tra marchi."
-    },
-    "note": { "ja": "外観・称呼・観念の三要素＋取引事情。" }
-  },
-  {
-    "id": "tm-0069",
-    "group": "procedure",
-    "term": {
-      "ja": "商標早期審査制度",
-      "de": "beschleunigtes Markenprüfungsverfahren",
-      "en": "accelerated trademark examination system",
-      "it": "procedura accelerata di esame del marchio"
-    },
-    "definition": {
-      "ja": "通常よりも早く審査を受けられる制度。",
-      "de": "Verfahren, das eine schnellere Prüfung einer Markenanmeldung ermöglicht.",
-      "en": "A system allowing faster examination of trademark applications.",
-      "it": "Sistema che consente un esame più rapido della domanda di marchio."
-    },
-    "note": { "ja": "一定の要件を満たす必要がある。" }
-  },
-  {
-    "id": "tm-0070",
-    "group": "procedure",
-    "term": {
-      "ja": "使用事実の証明・使用予定の宣誓",
-      "de": "Nachweis der Benutzung oder Benutzungsabsicht",
-      "en": "proof of use or declaration of intent to use",
-      "it": "prova dell'uso o dichiarazione di intento d'uso"
-    },
-    "definition": {
-      "ja": "商標の使用実績や使用予定を示す手続。",
-      "de": "Nachweis der tatsächlichen Nutzung oder der Absicht zur Nutzung einer Marke.",
-      "en": "Procedure to prove use or declare intent to use a trademark.",
-      "it": "Procedura per dimostrare l'uso o dichiarare l'intenzione d'uso."
-    },
-    "note": { "ja": "制度は国により異なる。" }
-  },
-  {
-    "id": "tm-0071",
-    "group": "infringement",
-    "term": {
-      "ja": "使用差止請求",
-      "de": "Unterlassungsanspruch",
-      "en": "injunction against use",
-      "it": "azione inibitoria"
-    },
-    "definition": {
-      "ja": "侵害行為の停止を求める請求。",
-      "de": "Anspruch auf Unterlassung einer Markenverletzung.",
-      "en": "Claim to stop infringing use.",
-      "it": "Richiesta di cessazione dell'uso illecito."
-    },
-    "note": { "ja": "侵害救済の中心的手段。" }
-  },
-  {
-    "id": "tm-0072",
-    "group": "damages",
-    "term": {
-      "ja": "損害賠償請求権",
-      "de": "Schadensersatzanspruch",
-      "en": "right to claim damages",
-      "it": "diritto al risarcimento dei danni"
-    },
-    "definition": {
-      "ja": "侵害による損害の賠償を求める権利。",
-      "de": "Anspruch auf Ersatz des durch die Verletzung entstandenen Schadens.",
-      "en": "Right to seek compensation for damages caused by infringement.",
-      "it": "Diritto a ottenere il risarcimento dei danni."
-    },
-    "note": { "ja": "侵害責任の基本。" }
-  },
-  {
-    "id": "tm-0073",
-    "group": "damages",
-    "term": {
-      "ja": "損害額の推定",
-      "de": "Schätzung des Schadens",
-      "en": "presumption of damages",
-      "it": "presunzione del danno"
-    },
-    "definition": {
-      "ja": "損害額の立証を容易にするための法的推定。",
-      "de": "Rechtliche Vermutung zur Erleichterung der Schadensberechnung.",
-      "en": "Legal presumption used to facilitate calculation of damages.",
-      "it": "Presunzione legale per facilitare la quantificazione del danno."
-    },
-    "note": { "ja": "実務上重要な算定ルール。" }
-  },
-  {
-    "id": "tm-0074",
-    "group": "duration",
-    "term": {
-      "ja": "商標権の存続期間満了",
-      "de": "Ablauf der Schutzdauer der Marke",
-      "en": "expiration of trademark right",
-      "it": "scadenza della durata del marchio"
-    },
-    "definition": {
-      "ja": "商標権の保護期間が終了すること。",
-      "de": "Ende der Schutzdauer einer Marke.",
-      "en": "The end of the protection period of a trademark.",
-      "it": "Fine del periodo di protezione del marchio."
-    },
-    "note": { "ja": "更新しない場合に消滅。" }
-  },
-  {
-    "id": "tm-0075",
-    "group": "procedure",
-    "term": {
-      "ja": "商標の審査期間",
-      "de": "Prüfungsdauer einer Marke",
-      "en": "examination period for trademarks",
-      "it": "durata dell'esame del marchio"
-    },
-    "definition": {
-      "ja": "出願から審査結果が出るまでの期間。",
-      "de": "Zeitraum von der Anmeldung bis zur Entscheidung.",
-      "en": "The time from filing to examination decision.",
-      "it": "Periodo dalla domanda alla decisione dell'esame."
-    },
-    "note": { "ja": "国や制度により異なる。" }
-  },
-  {
-    "id": "tm-0076",
-    "group": "publication",
-    "term": {
-      "ja": "出願公告",
-      "de": "Bekanntmachung der Anmeldung",
-      "en": "publication of application",
-      "it": "pubblicazione della domanda"
-    },
-    "definition": {
-      "ja": "出願内容を公に知らせる手続。",
-      "de": "Veröffentlichung des Inhalts einer Markenanmeldung.",
-      "en": "Public announcement of a trademark application.",
-      "it": "Pubblicazione del contenuto della domanda di marchio."
-    },
-    "note": { "ja": "制度や時期により用語の扱いに差あり。" }
-  },
-  {
-    "id": "tm-0077",
-    "group": "procedure",
-    "term": {
-      "ja": "コンセントレター",
-      "de": "Zustimmungsschreiben des Inhabers einer älteren Marke",
-      "en": "letter of consent",
-      "it": "lettera di consenso"
-    },
-    "definition": {
-      "ja": "先行商標権者が後願商標の登録に同意する旨を示す書面。",
-      "de": "Schriftliche Zustimmung des Inhabers einer älteren Marke zur Eintragung einer jüngeren Marke.",
-      "en": "A document in which the owner of an earlier trademark consents to the registration of a later mark.",
-      "it": "Documento con cui il titolare di un marchio anteriore acconsente alla registrazione di un marchio successivo."
-    },
-    "note": { "ja": "併存登録の判断要素となりうる。" }
-  },
-  {
-    "id": "tm-0078",
-    "group": "international",
-    "term": {
-      "ja": "外国への商標直接出願",
-      "de": "direkte Auslandsanmeldung einer Marke",
-      "en": "direct foreign trademark application",
-      "it": "domanda diretta all'estero di marchio"
-    },
-    "definition": {
-      "ja": "各国に個別に商標出願を行う方法。",
-      "de": "Einreichung von Markenanmeldungen direkt in einzelnen Ländern.",
-      "en": "Filing trademark applications separately in each foreign country.",
-      "it": "Deposito di domande di marchio direttamente nei singoli paesi."
-    },
-    "note": { "ja": "マドプロとの対比で理解。" }
-  },
-  {
-    "id": "tm-0079",
-    "group": "madrid",
-    "term": {
-      "ja": "国際商標登録出願",
-      "de": "internationale Markenanmeldung",
-      "en": "international trademark application",
-      "it": "domanda internazionale di marchio"
-    },
-    "definition": {
-      "ja": "マドリッド制度に基づき複数国への保護を求める出願。",
-      "de": "Anmeldung einer Marke über das Madrider System für mehrere Länder.",
-      "en": "Application under the Madrid System seeking protection in multiple countries.",
-      "it": "Domanda basata sul sistema di Madrid per ottenere protezione in più paesi."
-    },
-    "note": { "ja": "本国官庁を経由してWIPOに送付。" }
-  },
-  {
-    "id": "tm-0080",
-    "group": "madrid",
-    "term": {
-      "ja": "マドリッド議定書加盟国",
-      "de": "Vertragsparteien des Madrider Protokolls",
-      "en": "members of the Madrid Protocol",
-      "it": "paesi aderenti al Protocollo di Madrid"
-    },
-    "definition": {
-      "ja": "マドリッド議定書に参加している国または地域。",
-      "de": "Staaten oder Organisationen, die dem Madrider Protokoll beigetreten sind.",
-      "en": "Countries or regions that are parties to the Madrid Protocol.",
-      "it": "Paesi o regioni che aderiscono al Protocollo di Madrid."
-    },
-    "note": { "ja": "指定可能な保護対象国となる。" }
-  },
-  {
-    "id": "tm-0081",
-    "group": "priority",
-    "term": {
-      "ja": "優先権期間",
-      "de": "Prioritätsfrist",
-      "en": "priority period",
-      "it": "periodo di priorità"
-    },
-    "definition": {
-      "ja": "先の出願日を基準として優先権を主張できる期間。",
-      "de": "Frist, innerhalb derer die Priorität einer früheren Anmeldung beansprucht werden kann.",
-      "en": "Period during which priority of an earlier filing can be claimed.",
-      "it": "Periodo entro cui può essere rivendicata la priorità di una domanda anteriore."
-    },
-    "note": { "ja": "通常6か月。" }
-  },
-  {
-    "id": "tm-0082",
-    "group": "madrid",
-    "term": {
-      "ja": "本国官庁",
-      "de": "Ursprungsamt",
-      "en": "office of origin",
-      "it": "ufficio di origine"
-    },
-    "definition": {
-      "ja": "国際出願を受理しWIPOに送付する自国の官庁。",
-      "de": "Behörde, die die internationale Anmeldung entgegennimmt und weiterleitet.",
-      "en": "Authority that receives and forwards the international application to WIPO.",
-      "it": "Autorità che riceve e trasmette la domanda internazionale al WIPO."
-    },
-    "note": { "ja": "基礎商標との関係で重要。" }
-  },
-  {
-    "id": "tm-0083",
-    "group": "madrid",
-    "term": {
-      "ja": "指定官庁",
-      "de": "benanntes Amt",
-      "en": "designated office",
-      "it": "ufficio designato"
-    },
-    "definition": {
-      "ja": "国際登録に基づき保護が求められる各国の官庁。",
-      "de": "Behörde eines Landes, in dem Schutz beantragt wird.",
-      "en": "Authority of a country where protection is sought.",
-      "it": "Autorità del paese in cui si richiede la protezione."
-    },
-    "note": { "ja": "各国で実体審査が行われる。" }
-  },
-  {
-    "id": "tm-0084",
-    "group": "madrid",
-    "term": {
-      "ja": "国際事務局",
-      "de": "Internationales Büro (WIPO)",
-      "en": "International Bureau (WIPO)",
-      "it": "Ufficio internazionale (OMPI)"
-    },
-    "definition": {
-      "ja": "WIPOに設置され、国際商標登録を管理する機関。",
-      "de": "Bei der WIPO eingerichtete Stelle zur Verwaltung internationaler Markenregistrierungen.",
-      "en": "Body within WIPO that administers international trademark registrations.",
-      "it": "Organo dell'OMPI che gestisce le registrazioni internazionali dei marchi."
-    },
-    "note": { "ja": "方式審査や登録管理を担当。" }
-  },
-  {
-    "id": "tm-0085",
-    "group": "madrid",
-    "term": {
-      "ja": "欠陥通報",
-      "de": "Mängelmitteilung",
-      "en": "notification of irregularity",
-      "it": "notifica di irregolarità"
-    },
-    "definition": {
-      "ja": "国際出願の方式上の不備についての通知。",
-      "de": "Mitteilung über formale Mängel einer internationalen Anmeldung.",
-      "en": "Notification of formal defects in an international application.",
-      "it": "Notifica di irregolarità formali nella domanda internazionale."
-    },
-    "note": { "ja": "WIPOから本国官庁または出願人に送られる。" }
-  },
-  {
-    "id": "tm-0086",
-    "group": "madrid",
-    "term": {
-      "ja": "暫定拒絶通報",
-      "de": "vorläufige Schutzverweigerung",
-      "en": "provisional refusal",
-      "it": "rifiuto provvisorio"
-    },
-    "definition": {
-      "ja": "指定国において登録が認められない旨の暫定的通知。",
-      "de": "Vorläufige Mitteilung, dass der Markenschutz verweigert wird.",
-      "en": "Provisional notification that protection is refused in a designated country.",
-      "it": "Notifica provvisoria di rifiuto della protezione in un paese designato."
-    },
-    "note": { "ja": "各国法に基づき理由が示される。" }
+      "it": "First-to-file"
+    },
+    "summary": {
+      "ja": "先に出願した者が優先される。",
+      "en": "Priority goes to the earlier filer.",
+      "de": "Der frühere Anmelder hat Vorrang.",
+      "it": "Priorità al primo depositante."
+    },
+    "notes": {
+      "ja": "使用よりも出願のタイミングが重要となる。",
+      "en": "Filing timing is more important than use.",
+      "de": "Anmeldung ist wichtiger als Benutzung.",
+      "it": "Il deposito conta più dell’uso."
+    },
+    "business_note": {
+      "ja": "早期出願の必要性を説明。",
+      "en": "Explain importance of early filing.",
+      "de": "Früh anmelden.",
+      "it": "Deposito rapido."
+    },
+    "caution": {
+      "ja": "使用だけでは保護されない。",
+      "en": "Use does not guarantee rights.",
+      "de": "Benutzung reicht nicht.",
+      "it": "L’uso non basta."
+    },
+    "related_terms": ["priority"],
+    "articles": ["8"],
+    "tags": ["priority"]
+  },
+
+  {
+    "id": "tm-basic-0007",
+    "level": "basic",
+    "topic": {
+      "ja": "出願手続",
+      "en": "Application process",
+      "de": "Anmeldeverfahren",
+      "it": "Procedura"
+    },
+    "summary": {
+      "ja": "出願から登録までの手続が必要。",
+      "en": "Filing, examination, registration.",
+      "de": "Anmeldung, Prüfung, Eintragung.",
+      "it": "Domanda, esame, registrazione."
+    },
+    "notes": {
+      "ja": "拒絶理由通知が出る場合がある。",
+      "en": "Office actions may occur.",
+      "de": "Beanstandungen möglich.",
+      "it": "Possibili rilievi."
+    },
+    "business_note": {
+      "ja": "時間がかかる点を説明。",
+      "en": "Explain timeline.",
+      "de": "Zeitbedarf erklären.",
+      "it": "Spiegare i tempi."
+    },
+    "caution": {
+      "ja": "一度で登録されるとは限らない。",
+      "en": "Not always immediate.",
+      "de": "Nicht sofort.",
+      "it": "Non immediato."
+    },
+    "related_terms": ["application"],
+    "articles": ["5"],
+    "tags": ["procedure"]
+  },
+
+  {
+    "id": "tm-basic-0008",
+    "level": "basic",
+    "topic": {
+      "ja": "存続期間",
+      "en": "Term and renewal",
+      "de": "Schutzdauer",
+      "it": "Durata"
+    },
+    "summary": {
+      "ja": "更新により存続可能。",
+      "en": "Renewable indefinitely.",
+      "de": "Verlängerbar.",
+      "it": "Rinnovabile."
+    },
+    "notes": {
+      "ja": "期限管理が重要である。",
+      "en": "Deadline management is critical.",
+      "de": "Fristen beachten.",
+      "it": "Gestione scadenze."
+    },
+    "business_note": {
+      "ja": "更新忘れのリスクを説明。",
+      "en": "Explain renewal risks.",
+      "de": "Verlust bei Versäumnis.",
+      "it": "Rischio di perdita."
+    },
+    "caution": {
+      "ja": "期限厳守。",
+      "en": "Strict deadlines.",
+      "de": "Strenge Fristen.",
+      "it": "Scadenze rigide."
+    },
+    "related_terms": ["renewal"],
+    "articles": ["19"],
+    "tags": ["duration"]
+  },
+
+  {
+    "id": "tm-basic-0009",
+    "level": "basic",
+    "topic": {
+      "ja": "侵害の基本",
+      "en": "Infringement basics",
+      "de": "Verletzung",
+      "it": "Contraffazione"
+    },
+    "summary": {
+      "ja": "類似商標の無断使用は侵害となり得る。",
+      "en": "Unauthorized use of similar marks may infringe.",
+      "de": "Ähnliche Nutzung kann verletzen.",
+      "it": "Uso simile può violare."
+    },
+    "notes": {
+      "ja": "商標の類似性と商品・役務の関係を総合的に判断する。",
+      "en": "Assessment considers mark similarity and goods/services.",
+      "de": "Ähnlichkeit und Waren sind entscheidend.",
+      "it": "Conta la somiglianza e il contesto."
+    },
+    "business_note": {
+      "ja": "単なる名前の類似だけで判断しない点を説明。",
+      "en": "Explain it is not just name similarity.",
+      "de": "Nicht nur Name entscheidend.",
+      "it": "Non solo il nome."
+    },
+    "caution": {
+      "ja": "単純化しすぎない。",
+      "en": "Avoid oversimplification.",
+      "de": "Nicht vereinfachen.",
+      "it": "Non semplificare."
+    },
+    "related_terms": ["similarity"],
+    "articles": ["25"],
+    "tags": ["enforcement"]
+  },
+
+  {
+    "id": "tm-basic-0010",
+    "level": "basic",
+    "topic": {
+      "ja": "ライセンスと国際出願",
+      "en": "Licensing and Madrid system",
+      "de": "Lizenzierung und Madrider System",
+      "it": "Licenze e Madrid"
+    },
+    "summary": {
+      "ja": "ライセンスと国際出願が可能。",
+      "en": "Licensing and international filing possible.",
+      "de": "Lizenzierung möglich.",
+      "it": "Licenze possibili."
+    },
+    "notes": {
+      "ja": "マドリッド制度を利用できる。",
+      "en": "Madrid system available.",
+      "de": "Madrider System nutzbar.",
+      "it": "Sistema Madrid disponibile."
+    },
+    "business_note": {
+      "ja": "海外展開時の選択肢として説明。",
+      "en": "Explain as expansion option.",
+      "de": "Für Expansion wichtig.",
+      "it": "Per espansione."
+    },
+    "caution": {
+      "ja": "国内出願が必要な場合あり。",
+      "en": "National filing may be needed.",
+      "de": "Nationale Anmeldung nötig.",
+      "it": "Possibile deposito nazionale."
+    },
+    "related_terms": ["Madrid Protocol"],
+    "articles": ["68-2"],
+    "tags": ["international"]
   }
 ]
