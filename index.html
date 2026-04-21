@@ -1,326 +1,63 @@
-<!DOCTYPE html>
-<html lang="ja">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>IP Terms Dictionary</title>
-
-  <link rel="manifest" href="manifest.webmanifest">
-  <meta name="theme-color" content="#0f172a"/>
-
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      margin: 0;
-      background: #0f172a;
-      color: #e5e7eb;
-    }
-
-    header {
-      padding: 16px;
-      font-size: 20px;
-      font-weight: bold;
-      background: #111827;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
-
-    .toolbar {
-      padding: 12px 16px 0 16px;
-    }
-
-    .lang-switch {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      margin-bottom: 12px;
-    }
-
-    .lang-btn {
-      border: 1px solid #334155;
-      background: #111827;
-      color: #e5e7eb;
-      border-radius: 999px;
-      padding: 8px 12px;
-      font-size: 14px;
-      cursor: pointer;
-    }
-
-    .lang-btn.active {
-      background: #2563eb;
-      border-color: #2563eb;
-      color: white;
-      font-weight: 600;
-    }
-
-    input {
-      width: 100%;
-      box-sizing: border-box;
-      margin: 0 0 12px 0;
-      padding: 12px;
-      border-radius: 10px;
-      border: none;
-      font-size: 16px;
-    }
-
-    .meta {
-      font-size: 13px;
-      color: #94a3b8;
-      padding: 0 16px 4px 16px;
-    }
-
-    .card {
-      background: #1f2937;
-      margin: 12px 16px;
-      padding: 14px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-      cursor: pointer;
-    }
-
-    .card:active {
-      transform: scale(0.998);
-    }
-
-    .card-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 12px;
-    }
-
-    .term {
-      font-size: 28px;
-      font-weight: bold;
-      margin-bottom: 10px;
-      line-height: 1.25;
-      flex: 1;
-    }
-
-    .chevron {
-      font-size: 18px;
-      color: #94a3b8;
-      padding-top: 6px;
-    }
-
-    .lang {
-      font-size: 16px;
-      margin-bottom: 6px;
-    }
-
-    .details {
-      margin-top: 12px;
-      padding-top: 12px;
-      border-top: 1px solid #334155;
-      display: none;
-    }
-
-    .details.open {
-      display: block;
-    }
-
-    .section-title {
-      font-size: 12px;
-      color: #93c5fd;
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      margin: 0 0 8px 0;
-      text-transform: uppercase;
-    }
-
-    .definition-block {
-      margin-bottom: 14px;
-    }
-
-    .definition-line {
-      font-size: 14px;
-      line-height: 1.55;
-      margin-bottom: 8px;
-      color: #e2e8f0;
-    }
-
-    .note {
-      font-size: 14px;
-      color: #cbd5e1;
-      line-height: 1.5;
-    }
-
-    .hint {
-      font-size: 12px;
-      color: #94a3b8;
-      margin-top: 8px;
-    }
-
-    .empty {
-      margin: 24px 16px;
-      color: #94a3b8;
-      font-size: 14px;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trademark Multilingual Notes</title>
+  <meta name="description" content="Practical multilingual notes on Japanese trademark law for business discussions.">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
 </head>
-
 <body>
-  <header>IP Terms Dictionary</header>
+  <header class="site-header">
+    <div class="header-inner">
+      <div>
+        <h1>Trademark Multilingual Notes</h1>
+        <p class="subtitle">Practical multilingual notes on Japanese trademark law for business discussions.</p>
+      </div>
 
-  <div class="toolbar">
-    <div class="lang-switch" id="langSwitch">
-      <button class="lang-btn" data-lang="ja">JA</button>
-      <button class="lang-btn" data-lang="de">DE</button>
-      <button class="lang-btn" data-lang="en">EN</button>
-      <button class="lang-btn" data-lang="it">IT</button>
+      <div class="header-controls">
+        <label class="control">
+          <span>Language</span>
+          <select id="languageSelect">
+            <option value="ja">日本語</option>
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="it">Italiano</option>
+          </select>
+        </label>
+
+        <label class="control search-control">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Search topics, terms, tags">
+        </label>
+
+        <button id="bookmarkFilterBtn" class="secondary-btn" type="button" aria-pressed="false">
+          Bookmarks only
+        </button>
+      </div>
     </div>
+  </header>
 
-    <input id="search" placeholder="Search..." />
-  </div>
+  <main class="layout">
+    <aside class="sidebar">
+      <div id="topicList" class="topic-list"></div>
+    </aside>
 
-  <div class="meta" id="meta"></div>
-  <div id="list"></div>
+    <section class="content">
+      <article id="detailCard" class="detail-card">
+        <p class="empty">Loading...</p>
+      </article>
+    </section>
+  </main>
 
-  <script>
-    let data = [];
-    let currentLang = localStorage.getItem("ipdict_display_lang") || "ja";
-    let currentQuery = "";
-    let openCardId = null;
+  <template id="topicItemTemplate">
+    <button class="topic-item" type="button">
+      <span class="topic-item-title"></span>
+      <span class="topic-item-meta"></span>
+    </button>
+  </template>
 
-    const LANG_LABELS = {
-      ja: "日本語",
-      de: "Deutsch",
-      en: "English",
-      it: "Italiano"
-    };
-
-    async function load() {
-      const res = await fetch("./cards.json?v=3", { cache: "no-store" });
-      data = await res.json();
-      updateLangButtons();
-      applyFilter();
-    }
-
-    function getTerm(item, lang) {
-      return item.term?.[lang] || "";
-    }
-
-    function getDefinition(item, lang) {
-      return item.definition?.[lang] || "";
-    }
-
-    function render(list) {
-      const container = document.getElementById("list");
-      const meta = document.getElementById("meta");
-      container.innerHTML = "";
-
-      meta.textContent = `見出し: ${LANG_LABELS[currentLang]} / ${list.length}件`;
-
-      if (list.length === 0) {
-        container.innerHTML = `<div class="empty">該当する用語がありません。</div>`;
-        return;
-      }
-
-      list.forEach(item => {
-        const heading = getTerm(item, currentLang);
-        const isOpen = openCardId === item.id;
-
-        const div = document.createElement("div");
-        div.className = "card";
-        div.dataset.id = item.id;
-
-        div.innerHTML = `
-          <div class="card-top">
-            <div class="term">${escapeHtml(heading)}</div>
-            <div class="chevron">${isOpen ? "▾" : "▸"}</div>
-          </div>
-
-          ${currentLang !== "ja" ? `<div class="lang">JA: ${escapeHtml(getTerm(item, "ja"))}</div>` : ""}
-          ${currentLang !== "de" ? `<div class="lang">DE: ${escapeHtml(getTerm(item, "de"))}</div>` : ""}
-          ${currentLang !== "en" ? `<div class="lang">EN: ${escapeHtml(getTerm(item, "en"))}</div>` : ""}
-          ${currentLang !== "it" ? `<div class="lang">IT: ${escapeHtml(getTerm(item, "it"))}</div>` : ""}
-
-          <div class="hint">タップで詳細表示</div>
-
-          <div class="details ${isOpen ? "open" : ""}">
-            <div class="definition-block">
-              <div class="section-title">Definition</div>
-              <div class="definition-line">JA: ${escapeHtml(getDefinition(item, "ja"))}</div>
-              <div class="definition-line">DE: ${escapeHtml(getDefinition(item, "de"))}</div>
-              <div class="definition-line">EN: ${escapeHtml(getDefinition(item, "en"))}</div>
-              <div class="definition-line">IT: ${escapeHtml(getDefinition(item, "it"))}</div>
-            </div>
-
-            <div class="section-title">Note</div>
-            <div class="note">${escapeHtml(item.note?.ja || "")}</div>
-          </div>
-        `;
-
-        div.addEventListener("click", () => {
-          openCardId = openCardId === item.id ? null : item.id;
-          render(list);
-        });
-
-        container.appendChild(div);
-      });
-    }
-
-    function applyFilter() {
-      const q = currentQuery.trim().toLowerCase();
-
-      if (!q) {
-        render(data);
-        return;
-      }
-
-      const filtered = data.filter(item => {
-        const allTerms = Object.values(item.term || {});
-        const allDefinitions = Object.values(item.definition || {});
-        const noteJa = item.note?.ja || "";
-
-        return [...allTerms, ...allDefinitions, noteJa].some(v =>
-          String(v).toLowerCase().includes(q)
-        );
-      });
-
-      if (openCardId && !filtered.some(item => item.id === openCardId)) {
-        openCardId = null;
-      }
-
-      render(filtered);
-    }
-
-    function updateLangButtons() {
-      document.querySelectorAll(".lang-btn").forEach(btn => {
-        btn.classList.toggle("active", btn.dataset.lang === currentLang);
-      });
-    }
-
-    function escapeHtml(str) {
-      return String(str)
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#39;");
-    }
-
-    document.getElementById("search").addEventListener("input", (e) => {
-      currentQuery = e.target.value;
-      applyFilter();
-    });
-
-    document.getElementById("langSwitch").addEventListener("click", (e) => {
-      const btn = e.target.closest(".lang-btn");
-      if (!btn) return;
-
-      currentLang = btn.dataset.lang;
-      localStorage.setItem("ipdict_display_lang", currentLang);
-      updateLangButtons();
-      applyFilter();
-    });
-
-    load();
-
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("./sw.js");
-    }
-  </script>
+  <script src="./app.js"></script>
 </body>
 </html>
