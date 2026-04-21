@@ -377,5 +377,42 @@
     "related_terms": ["Madrid Protocol"],
     "articles": ["68-2"],
     "tags": ["international"]
-  }
+  },
+  {
+  "id": "tm-basic-0011",
+  "level": "basic",
+  "topic": {
+    "ja": "商標の類否判断（外観・称呼・観念と取引の実情）",
+    "en": "Assessment of similarity (visual, aural, conceptual and market context)",
+    "de": "Beurteilung der Ähnlichkeit (visuell, klanglich, begrifflich und Marktumstände)",
+    "it": "Valutazione della somiglianza (visiva, fonetica, concettuale e contesto di mercato)"
+  },
+  "summary": {
+    "ja": "商標の類否は、外観・称呼・観念を基準としつつ、取引の実情を踏まえ、需要者の混同のおそれの有無により総合的に判断される。",
+    "en": "Similarity is assessed based on visual, aural, and conceptual aspects, taking into account market context and focusing on likelihood of confusion.",
+    "de": "Die Ähnlichkeit wird anhand visueller, klanglicher und begrifflicher Aspekte sowie unter Berücksichtigung der Marktumstände beurteilt.",
+    "it": "La somiglianza è valutata considerando aspetti visivi, fonetici e concettuali, tenendo conto del contesto di mercato."
+  },
+  "notes": {
+    "ja": "商標の類否判断は、外観（見た目）、称呼（読み方・音）、観念（意味内容）の三要素を基本として行われる。ただし、これらを個別・機械的に比較するのではなく、需要者が商標を全体としてどのように認識するかという観点から、総合的に判断される。\n\nさらに、日本法において重要なのは「取引の実情」である。すなわち、単なる商標の比較にとどまらず、実際の市場における使用態様や取引環境を踏まえて判断される。具体的には、商品の販売経路（オンライン・店舗）、価格帯（高額商品か日用品か）、需要者層の注意力、ブランドの知名度、広告の態様、商標の使用位置（パッケージ・ロゴ・商品名）などが考慮される。\n\nまた、需要者は通常、商標を厳密に比較して認識するのではなく、「不完全な記憶（imperfect recollection）」に基づいて認識するため、細部の差異があっても全体として類似と評価される場合がある。逆に、外観や称呼の一部が共通していても、取引実情や観念の違いにより混同のおそれが否定される場合もある。\n\nしたがって、類否判断は単なる形式的比較ではなく、「需要者の立場から見た全体的印象」と「現実の取引状況」を基礎として、混同のおそれの有無を中心に判断される点に特徴がある。",
+    "en": "Similarity is assessed primarily through three aspects: visual (appearance), aural (sound), and conceptual (meaning). However, these are not applied in a mechanical or isolated manner. Instead, the marks are evaluated as a whole from the perspective of how an average consumer would perceive them.\n\nA key feature in Japanese practice is the importance of the actual conditions of trade (market context). This means that the analysis goes beyond abstract comparison and considers how the marks are used in real market conditions. Relevant factors include distribution channels (online vs. retail), price range, level of consumer attention, brand recognition, advertising methods, and how the mark is presented (e.g., logo, packaging, product name).\n\nConsumers typically rely on imperfect recollection rather than side-by-side comparison, which means that minor differences may not prevent a finding of similarity. Conversely, even where marks share certain elements, differences in meaning or market context may reduce the likelihood of confusion.\n\nTherefore, similarity assessment is a holistic evaluation focusing on the overall impression of the marks and the likelihood of confusion in the actual marketplace, rather than a purely formal comparison.",
+    "de": "Die Ähnlichkeit von Marken wird anhand von drei Hauptaspekten beurteilt: visuell (Erscheinungsbild), klanglich (Aussprache) und begrifflich (Bedeutung). Diese Kriterien werden jedoch nicht isoliert oder mechanisch angewendet. Entscheidend ist vielmehr der Gesamteindruck aus Sicht des durchschnittlichen Verbrauchers.\n\nIm japanischen Recht spielt zudem die tatsächliche Marktsituation eine wichtige Rolle. Die Beurteilung berücksichtigt daher, wie die Marke im realen Geschäftsverkehr verwendet wird. Dazu gehören Vertriebskanäle, Preisniveau, Aufmerksamkeit der Verbraucher, Bekanntheit der Marke sowie die konkrete Art der Verwendung.\n\nDa Verbraucher Marken in der Regel nicht nebeneinander vergleichen, sondern sich auf ihre unvollkommene Erinnerung verlassen, können selbst Unterschiede in Details unbeachtlich sein. Umgekehrt kann trotz gewisser Gemeinsamkeiten eine Verwechslungsgefahr fehlen.\n\nDie Beurteilung erfolgt somit ganzheitlich unter Berücksichtigung des Gesamteindrucks und der konkreten Marktumstände.",
+    "it": "La somiglianza dei marchi è valutata sulla base di tre elementi principali: visivo, fonetico e concettuale. Tuttavia, questi elementi non vengono applicati in modo meccanico o separato. Si considera invece l’impressione complessiva dal punto di vista del consumatore medio.\n\nNel sistema giapponese è particolarmente importante il contesto di mercato. Ciò significa che la valutazione tiene conto delle condizioni reali di utilizzo del marchio, come i canali di distribuzione, il livello di prezzo, il grado di attenzione del consumatore, la notorietà del marchio e le modalità di presentazione.\n\nPoiché i consumatori si basano spesso su un ricordo imperfetto, anche differenze minori possono non escludere la somiglianza. Al contrario, elementi comuni non implicano necessariamente confusione.\n\nLa valutazione è quindi globale e basata sull’impressione complessiva e sulla probabilità di confusione nel contesto reale."
+  },
+  "business_note": {
+    "ja": "海外の相手には、『日本では単なる商標の見た目比較ではなく、市場での使われ方や消費者の認識を踏まえて判断される』と説明すると理解されやすい。",
+    "en": "It is helpful to explain that similarity is not a mechanical comparison, but depends on how marks are perceived in real market conditions.",
+    "de": "Die Ähnlichkeit hängt von der Wahrnehmung im realen Markt ab.",
+    "it": "La somiglianza dipende dal contesto reale di mercato."
+  },
+  "caution": {
+    "ja": "外観・称呼・観念の一致のみで結論づけると誤解を招く可能性がある。",
+    "en": "Avoid concluding based solely on visual or phonetic similarity.",
+    "de": "Nicht nur auf einzelne Kriterien abstellen.",
+    "it": "Non basarsi solo su singoli elementi."
+  },
+  "related_terms": ["similarity", "likelihood of confusion", "market context", "consumer perception"],
+  "articles": ["4", "25"],
+  "tags": ["similarity", "core concept", "important"]
+}
 ]
